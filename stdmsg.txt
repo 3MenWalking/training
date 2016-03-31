@@ -1,0 +1,3127 @@
+1	Entry of trucker code is required.
+2	Invalid trucker code.
+3	Trucker is cutoff from all activity by terminal.
+4	Entry of $1 is required.
+5	Tractor license is cutoff from all activity by terminal.
+6	Entry of first choice is required.
+7	Invalid choice.
+8	Equipment is not a container.
+9	Container is a Dray In, use DRAY IN program.
+10	Container is reserved for: $2.
+11	Equipment is not a chassis.
+12	Foreign pool chassis not allowed in the terminal.
+13	Trucker is cutoff from pickups by terminal.
+14	Trucker has no agreement with $1.
+15	Trucker is cutoff from all activity by $1.
+16	Trucker is cutoff from pickups by $1.
+17	Trucker agreement with $1 has expired.
+18	Container not on file.
+19	Container not currently on terminal.
+20	Pickup already requested for container.
+21	Container is not full.
+22	Container is not full import or drayoff.
+23	Drayoff, $1.
+24	Equipment $1 is not a cooling unit.
+25	Trucker does not match designated trucker.
+26	Pickup requires GENSET.
+27	Pickup requires cooling unit.
+28	Pickup requires accessory type: $1.
+29	Pickup requires $1 chassis only.
+30	Container does not have a yard location.
+31	Pickup requires OWN chassis, trucker does not have one.
+32	Pickup requires chassis from pool: $1.
+33	Pickup requires chassis type: $1 $2.
+34	$1 is not authorized to use chassis pool: $2.
+35	$1 is cutoff from chassis pool: $2.
+36	$1 has exceeded qty allowed for chassis pool: $2.
+37	Terminal hasn't approved trucker for chassis pool: $1.
+38	Terminal has cutoff trucker from chassis pool: $1.
+39	$1 has not approved trucker for chassis pool: $2.
+40	$1 has cutoff trucker from chassis pool: $2.
+41	$1/trucker agreement expired for chassis pool: $2.
+42	$1 is not authorized to use GENSET/CU pool: $2.
+43	$1 is cutoff from GENSET/CU pool: $2.
+44	$1 has exceeded qty allowed for GENSET/CU pool: $2.
+45	Terminal not approved trucker for GENSET/CU pool: $1.
+46	Terminal has cutoff trucker from GENSET/CU pool: $1.
+47	$1 has not approved trucker for GENSET/CU pool: $2.
+48	$1 has cutoff trucker from GENSET/CU pool: $2.
+49	$1/trucker agreement expired for GENSET/CU pool: $2.
+50	Pickup requires GENSET/CU from pool: $1.
+51	Pickup requires $1 GENSET/CU only.
+52	Container requires validation.
+53	Empty in not allowed for $1, size type $2
+54	Drayin, $1.
+55	Drayin container - check Customs.
+56	Non-AMS container - check Customs.
+57	Non-AMS container, $1.
+58	Fees/charges not paid or released.
+59	$1 last free day not entered.
+60	$1 import demurrage not paid.
+61	Invalid tractor license state.
+62	Port's last free day not entered.
+63	Port's import demurrage not paid.
+64	Container not cleared by Customs.
+65	Designated trucker required.
+66	Transaction has been completed.
+67	Customs has ordered exam, no exam constraint exists.
+68	Pickup must use OWN chassis.
+69	Hazardous Cargo, $1.
+70	Transaction is not a pickup.
+71	Transaction has expired.
+72	Entry of chassis or 'OWN' required.
+73	Chassis not on file.
+74	Equipment is not a chassis.
+75	Chassis not currently on terminal.
+76	$1 GENSET not on file.
+77	Equipment $1 is not an accessory.
+78	Equipment $1 is not a GENSET.
+79	Equipment $1 is not a nose mount GENSET.
+80	Equipment $1 is not a chassis mount GENSET.
+81	Equipment $3 is $1 type, $2 is required.
+82	$1 Cooling unit not on file.
+83	$1 is not authorized to pool: $2.
+84	$1 is cutoff from pool: $2.
+85	Container mount GENSET $1 not allowed.
+86	Container mount cooling unit $1 not allowed.
+87	Chassis mount GENSET $1 not allowed.
+88	Pickup requires $1 chassis, this one owned by $2.
+89	Pickup requires $1 chassis, this chassis is $2.
+90	Pickup requires: $1.
+91	Pickup requires $1 GENSET/CU, this one owned by $2.
+92	Invalid booking or EDO number.
+93	Revenue producing empty booking, no pickups allowed.
+94	Booking or EDO line not valid at terminal.
+95	Vessel requires equipment capable of $1.
+96	Pickup not allowed vessel/voyage has sailed.
+97	Pickup not allowed for vessel/voyage.
+98	Pickup not allowed for booking/EDO.
+99	Pickup tally full for this booking/EDO.
+100	$2, new equipment in yard, HOLD.
+101	Duplicate equipment in yard, HOLD.
+102	$2, non-AMS Manifested empty, HOLD.
+103	$2, held for SSA purpose.
+104	$2, do not accept back, call Line.
+105	$2, do not return empty to Terminal.
+106	$2, US Department of Agriculture (USDA) exam.
+107	$2, USDA hold for snails.
+108	$2, Contraband Enforcement Team (CET) exam.
+109	$2, Merchandise Enforcement Team (MET) exam.
+110	CES exam.
+111	$2, Manifest Review Unit (MRU) hold.
+112	$2, Intensive exam.
+113	$2, Food and Drug Administration (FDA) exam.
+114	$2, California Dept of Agriculture exam.
+115	$2, Animal and Plant Health Inspection Service.
+116	$2, Fish and Wildlife Service (FWS) exam.
+117	$2, Shipper Owned, don't return empty.
+118	Service Order excludes prefix: $1.
+119	Service Order excludes range: $1 $2.
+120	Service Order requires prefix: $1.
+121	Service Order requires range: $1 $2.
+122	$2, in range excluded from commod: $1.
+123	$2, in range excluded from country: $1.
+124	$2, in range excluded from port: $1.
+125	$2, in range excluded from region: $1.
+126	$2, in range excluded from region: $1.
+127	$2, in range for commodity: $1.
+128	$2, in range for country: $1.
+129	$2, in range for port: $1.
+130	$2, must go to country: $1.
+131	$2, can't go to country: $1.
+132	$2, notify back office upon equipment arrival.
+133	$2, empty equipment, HOLD.
+134	$2, must go to port: $1.
+135	$2, must go to region: $1.
+136	$2, must go on service: $1.
+137	$2, must be used for commodity: $1.
+138	$2, can't go to port: $1.
+139	$2, can't go on service: $1.
+140	$2, can't be used for region: $1.
+141	$2, can't be used for commodity: $1.
+142	$2, in range for region: $1.
+143	$2, in range for service: $1.
+144	Commodity: $1, requires range $2 $3.
+145	Country: $1, requires range $2 $3.
+146	Port: $1, requires range $2 $3.
+147	Region: $1, requires range $2 $3.
+148	Service: $1, requires range $2 $3.
+149	$2, Revenue Producing Empty (full out only).
+150	Pickup requires grade of: $1 $2.
+151	Pickup tally full for: $1 $2.
+152	Pickup requires: $1 $2.
+153	Pickup requires service: $1.
+154	Pickup requires: $1.
+155	Reserved equipment: $1 $2 $3.
+156	Equipment not assigned to EDO or not clear customs/FCR.
+157	Transaction is not for pickup full.
+158	Transaction is not pickup empty.
+159	Container is not an empty.
+160	Booking/EDO no longer on file.
+161	$1 GENSET not currently on terminal.
+162	$1 Cooling unit not currently on terminal.
+163	Pickup requires $1 or $2 chassis, chassis is $3.
+164	Pickup requires $1 pool, this chassis from $2 pool.
+165	Pickup requires $1 pool, this chassis owned by $2.
+166	Pickup requires $1 cooling unit, this owned by $2.
+167	Use $1 or $2 or $3 if available.
+168	$1 is not authorized to use container pool: $2.
+169	$1 is cutoff from container pool: $2.
+170	$1 has exceeded qty allowed for container pool: $2.
+171	Terminal not approved trucker for container pool: $1.
+172	Terminal has cutoff trucker from container pool: $1.
+173	$1 has not approved trucker for container pool: $2.
+174	$1 has cutoff trucker from container pool: $2.
+175	$1/trucker agreement expired for container pool: $2.
+176	Pickup requires $1 container, container owned by $2.
+177	Booking/EDO size/type no longer on file.
+178	Pickup requires: $1, ctr not capable of this.
+179	Pickup requires voltage: $1, ctr voltage is $2.
+180	Pickup requires grade: $1, container is grade: $2.
+181	Container reserved for another Booking/EDO.
+182	Chassis reserved for another Booking/EDO.
+183	Pickup requires $1 container, this container is $2.
+184	GENSET required, OWN chassis not allowed.
+185	Entry of $1 is required.
+186	Chassis from $1 pool not allowed for offhire/repo.
+187	Out requires reserved equipment, this is not.
+188	Out requires reserved equipment, none available.
+189	Pickup of full not allowed for $1.
+190	Pickup of empty not allowed for $1.
+191	$1 service expired for: $2.
+192	Equipment is: $1, not allowed.
+193	$1 containers not allowed in full.
+194	Invalid booking number.
+195	Full in not allowed vessel/voyage has sailed.
+196	Full in not allowed, for vessel voyage.
+197	Full in not allowed, past cutoff of: $1
+198	Container owned by: $1, booking line of: $2.
+199	Booking line: $1 cutoff from container pool: $2.
+200	$1 size/type not booked.
+201	Booking size/type is full.
+202	No full(empty) in for this booking size/type.
+203	Equipment: $1, is not a GENSET.
+204	GENSET: $1 is currently on terminal.
+205	Equipment: $1, is not a Cooling Unit.
+206	Cooling Unit: $1 is currently on Terminal.
+207	$1 equipment not allowed.
+208	"OWN" chassis not allowed.
+209	Bare chassis in not allowed for: $1
+210	Chassis reserved for: $1 $2.
+211	Transaction not for pickup bare chassis.
+212	Container is over weight.
+213	Full container in requires entry of first seal.
+214	Only reserved equipment allowed for this booking.
+215	Equipment requires: $1
+216	Container is not approved for dray in.
+217	Dray In is currently on Terminal.
+218	$1 containers not allowed Dray In.
+219	Dray in not allowed for: $1 $2.
+220	Container not reserved for offhire/reposition.
+221	Pickup ticket required for offhire for $1.
+222	Pickup ticket required for reposition for $1.
+223	Container required if chassis is "OWN".
+224	Chassis not reserved for offhire/reposition.
+225	Illogical Move, No Outgate.
+226	Chassis is currently on terminal.
+227	Accessory is currently on terminal.
+228	Container gone G.O. may require filing of lien.
+229	Chassis owned by: $1, can't be received for: $2.
+230	SZ/TP does not match entered booking. Container is $1.
+231	Export demurrage date for vessel prevents full in.
+232	Empty release not allowed for booking/EDO.
+233	Chassis assigned for export.
+234	No delete allowed, equipment has been loaded to vessel.
+235	Invalid yard location.
+236	Invalid yard sequence number.
+237	Equipment not on file.
+238	Equipment not currently on terminal.
+239	Container assigned for export.
+240	Equipment reserved for another purpose.
+241	Assignment requires equipment for: $1, this is $2.
+242	Assignment not allowed vessel/voyage has sailed.
+243	Assignment requires $1 equipment, equipment is $2.
+244	Assignment requires grade: $1, equipment is $2.
+245	Equipment is damaged.
+246	Assignment requires container nose mounted GENSET.
+247	Assigmment requires chassis mounted GENSET.
+248	Assignment requires cooling unit.
+249	Equipment requires: $1.
+250	Quantity exceeds number for vessel empty reposition.
+251	Assignment requires reserved equipment, this is not.
+252	Assignment requires reserved equipment, none available.
+253	Equipment cannot be reserved, it is restow cargo.
+254	Equipment cannot be reserved, it is through cargo.
+255	Equipment cannot be reserved, it is tranship cargo.
+256	Equipment cannot be reserved, it is export cargo.
+257	Equipment is currently an import full.
+258	Equipment cannot be reserved, it is assigned to EDO.
+259	Quantity assigned + reserved, exceeds order quantity.
+260	Terminal Calendar is not up to date.
+261	Transaction date later than today's date + 1 day.
+262	Transaction date less than today's date - 7 days.
+263	Transaction date less than equipment yard date.
+264	$2, Environmental Protection Agency (EPA) exam.
+265	$2, Alcohol, Tobacco, and Firearms (ATF) exam.
+266	$2, Federal Communications Commission (FCC) exam.
+267	$2, Department of Transportation (DOT) exam.
+268	$2, Food Safety and Inspection Service (FSIS) exam.
+269	Equipment size/type: $1, not for offhire/reposition.
+270	Invalid service order.
+271	$2, USDA hold for manifest.
+272	$2, send to CEM for empty service.
+273	Assignment of dray in equipment not allowed.
+274	Container and chassis are the same number.
+275	Container and generator are the same number.
+276	Container and cooling unit are the same number.
+277	Chassis and generator are the same number.
+278	Chassis and cooling unit are the same number.
+279	Generator and cooling unit are the same number.
+280	Container is under weight.
+281	No change allowed, equipment has been loaded to vessel.
+282	$2, put away with D'Amico containers only.
+283	$2, put away with Italia containers only.
+284	Pickup ticket not signed off by USDA.
+285	Size/type mismatch: from ctr is $1, to ctr is $2.
+286	From ctr owned by $1, to ctr owned by $2.
+287	$2, Return to 7th Street Terminal.
+288	Full in requires voltage: $1 ctr voltage is $2.
+289	Full in requires grade: $1, container is grade: $2.
+290	Full in requires: $1, container is not.
+291	Equipment in use. 
+292	Service Order in use. Press commit or F9 to print ticket.
+293	Commodity: $1, excludes range $2 $3.
+294	Country: $1, excludes range $2 $3.
+295	Port: $1, excludes range $2 $3.
+296	Region: $1, excludes range $2 $3.
+297	Service $1, excludes range $2 $3.
+298	$2, send to CEM for full service.
+299	Equipment in yard/on vessel, call terminal to reserve.
+300	DRAYOFF
+301	$2, set aside for OFFHIRE.
+302	$2, set aside for GENSTAR.
+303	$2, set aside for TRANSAMERICA.
+304	$2, Snail Container, Set Aside
+305	Pickup requires grade: $1, chassis is grade: $2
+306	$2, set chassis aside for OFFHIRE.
+307	Loading of full not allowed for $1 containers.
+308	Designated trucker specified, rail loading not allowed.
+309	Chassis required.
+310	GENSET required for load planning.
+311	Cooling Unit required for load planning.
+312	Current Use required for load planning.
+313	Sequence does not match Track Sequence.
+314	Bay not valid for this Car Type.
+315	Tier not valid for this Car Type.
+316	This equipment size not allowed in this Tier.
+317	Weight exceeds capacity of this Bay.
+318	Car Type not capable of TOFC.
+319	Number of hitches have been exceeded for this Car Type.
+320	Quantity Allowed exceeded for this size in this Tier.
+321	Weight exceeds limit of this Tier.
+322	High Cube not allowed in this Tier.
+323	Hazardous Cargo not allowed for this Railroad Company.
+324	Refrigerated cargo not allowed for this Railroad Co.
+325	Over Dimension cargo not allowed for this Railroad Co.
+326	High Cubes not allowed for this Railroad Company.
+327	Number of High Cubes in bay exceeds Limit for Railroad.
+328	Combined equipment height exceeds Limit of Raiload Co.
+329	Combined equipment exceeds TEU capacity for this bay.
+330	Railroad does not allow single 20 on this Train Car.
+331	Destination does not allow single 20 on this Train Car.
+332	No delete allowed, equipment has been loaded to train.
+333	No delete allowed, equipment has been planned to train.
+334	No change allowed, equipment has been loaded to train.
+335	Invalid sort code.
+336	Invalid destination.
+337	Equipment assigned to Train load list.
+338	Hazardous cargo not allowed for this Railroad Dest.
+339	Refrigerated cargo not allowed for this Railroad Dest.
+340	Over Dimension cargo not allowed for this Railroad Dest
+341	High Cubes not allowed for this Railroad Destination.
+342	Number of High Cubes in bay exceeds Railroad Dest limit
+343	Combined equipment height exceeds Railroad Dest limit.
+344	Chassis reserved for Pool: $1 Line: $2.
+345	Container reserved for Pool: $1 Line: $2.
+346	$2, held for offhire.
+347	USCG Damage Inspection
+353	U.S. Department of Agriculture Inspection is required.
+354	U.S. Department Of Agriculture Intensive Exam.
+355	U.S. Department Of Agriculture Fumigation.
+356	U.S. Department Of Agriculture Hold.
+357	"OWN" accessory not allowed in bare.
+358	Bare accessory in not allowed for: $1
+359	Accessory reserved for: $1 $2
+360	Accessory already in yard.
+361	Invalid EDO number.
+362	EDO line not valid at terminal.
+363	Empty release not allowed for EDO.
+364	Pickup not allowed for EDO.
+365	Pick up ticket issued, use Out Gate Processing.
+366	Equipment is not a accessory.
+367	Accessory not currently on terminal.
+368	Accessory assigned for export.
+369	Accessory reserved for another Booking/EDO.
+370	Accessory reserved for Pool: $1 Line: $2.
+371	Transaction is not pickup accessory.
+372	Accessory not on file.
+373	Terminal hasn't approved trucker for accessory pool: $1.
+374	Fax transaction has already been initiated.
+375	No delivery order on file.
+376	Full delivery attributes cannot be entered for transshipments.
+377	GENSET required.
+378	Cooling Unit required.
+379	Assignment requires $1 chassis, this one owned by $2.
+380	Assignment requires $1 chassis, this chassis is $2.
+381	Assignment requires: $1.
+382	Assignment requires $1 chassis, this chassis is $2
+383	Assignment requires chassis from pool: $1
+384	Assignment requires accessory type: $1.
+385	Assignment requires chassis type: $1.
+386	Wildcards not allowed for $1.
+387	$1 must be entered.
+388	Invalid $1 for $2.
+389	Duplicate $1 exist.
+390	Invalid $1.
+391	Booking requires a different size/type than $1.
+392	Booking requires a different grade than $1.
+393	Transaction complete: $1 records applied and saved.
+394	No changes to save.
+395	Cannot enter 'T' when New and Old Booking Numbers don't match.
+396	Cannot enter 'R' when Equipment doesn't have a Booking Number.
+397	Cannot enter 'R' when New and Old Booking Numbers match.
+398	Enter I, R, or T in field.
+399	Invalid Booking Number, Vessel has already sailed.
+400	Do you wish to convert transshipments in the yard to exports?
+401	No equipment for this vessel/voyage.
+402	Parameter $1 has not been setup correctly for this Terminal $2.
+403	There was a problem with updating $1 information.
+404	$1 not on file.
+405	$1 is a required entry. - list of values available.
+406	$1 is a required entry.
+407	Invalid value for $1.
+408	Invalid line/vessel/outbound voyage.
+409	The report selection returned no records.
+410	Search Criteria returns no Containers, try again.
+411	Chassis is not in the yard and must be stow plan entered.
+412	Equipment is already an $1.
+413	Valid values are: $1.
+414	Unable to find $1.
+415	No data found in table $1.
+416	Too many rows found in table $1.
+417	Key not valid in this context.
+418	Unable to call help form $ORACLE_HELP.
+419	Must Enter Query Mode First.
+420	Must have a VESSEL/VOYAGE to continue.
+421	At last record.
+422	At first block.
+423	At last block.
+424	Cannot delete master record when matching detail records exist.
+425	No changes to commit.
+426	$1 Function key not allowed.
+427	$1 not allowed in this block.
+428	Exit not allowed.  Print trouble ticket.
+429	You pressed an undefined function key.
+430	Option currently not available.
+431	There is no last ticket to print.
+432	Pickup requires $1 Accessory, this one owned by $2.
+433	Trucker ID not on file.
+434	Driver not registered with this Trucking Company.
+435	Truck license has expired.
+436	Driver has been cutoff from using this terminal.
+437	Entry of driver license is required.
+438	Cannot enter associated chassis, please enter Container: $1.
+439	$2, held by terminal.
+440	$2, has a credit hold.
+441	Booking must be assigned to FULL Equipment.
+442	Equipment must have a weight assigned.
+443	Terminal Event $1 has not been setup properly.
+444	Unable to create the gate transaction.
+445	This screen is for inbound trains only.
+446	EDO has expired.
+447	Equipment not in this Release Number.
+448	Release Number not on file.
+449	Trucker code does not match in Release Number.
+450	Unable to find Train Id.
+451	No equipment to deramp.
+452	Equipment sort group doesn't match any sort group for this rail car.
+453	Invalid Tier.
+454	Invalid Bay Letter.
+455	Top tier can only have equipment of size 40.
+456	All positions are full for this tier.
+457	TEU Capacity has been exceeded.
+458	Bay weight capacity has been exceeded.
+459	Train Car weight capacity has been exceeded.
+460	Equipment has not been released.
+461	Trucker does not match this Release Number.
+462	Pickup qty exceeded releases qty.
+463	Equipment not equal to pickup
+464	Equipment with constraints cannot be released.
+465	Freight cashier must be assigned.
+466	Customs must be cleared.
+467	Number of High Cubes allowed in this bay is $1
+468	Reefers NOT allowed for rail destination $1
+469	Hazardous NOT allowed for rail destination $1
+470	Over Dimension NOT allowed for rail destination $1
+471	Target Terminal not yet assigned.
+472	Sz/Tp not found for Booking.
+473	Reserved equipment at location: $1, $2, $3.
+474	$2. held for sale
+475	Trucker call dispatcher
+476	$2, return to container care
+477	$2, hold for CEM repair bid
+478	$2, held for vessel loadout
+479	New empty equipment call line for authorization.
+480	Invalid owner id.
+481	Charges Due
+482	Problem Calculating Demurrage
+483	Can not find Equipment Use Record
+484	Problem creating Demurrage Out transaction
+485	Weight exceed limit of equipment details
+486	Hazard declaration not found.
+487	Hazardous declaration found, but equipment not hazardous.
+488	Hazardous declaration expired.
+489	$2, USDA Swoop Hold
+496	$2, held for REPO
+497	Container has invalid Line Id.
+498	Container assigned to outbound train.
+499	Hazardous not verified.
+500	$2, in range for OFFHIRE.
+501	$2, in range for SALE.
+502	$2, Contraband Enforcement Team (CET) Hold.
+503	Chassis assigned for import.
+504	Container assigned for import.
+505	Container has no yard spot location.
+506	Driver has been cutoff from all Trucking Company.
+507	Detailed temp, vent unit & settings required
+508	Hazardous information for container is incomplete
+509	Container requires vessel voyage information
+510	Held by Quarantine.
+511	Hold Trucker, Advise Claims Manager.
+512	Hold Trucker, Advise Gate Manager.
+513	Picture ID is required.
+514	Tax Code not on file.
+515	Seal not matching.
+516	Company not on file.
+517	Hazardous placard mismatch.
+518	Container exceeds tare weight. Have driver open door.
+519	Discovery Team Exam.
+520	Container Owned by South Seas.
+521	Tractor license number not on file.
+522	Truck not registered with this Trucking Company
+523	Truck registered date expired.
+524	MID PACIFIC HOLD
+525	No Empty Pick Up for this Transaction.
+526	Delivery information does not exist.
+527	Hold for Documents, please call operations on 2nd floor
+528	Priority stow Hold, Call EXT 8624
+529	Planning Hold, Call EXT 8624
+530	Hold for Techtrol, Call OPS EXT 8662
+531	Hold for Pretrip, Call Ops @ EXT 8615
+532	APL CLASS1
+551	This Chassis has a current use.
+552	This Container has a current use.
+553	This container is not foreign owned.
+554	This chassis is not foreign owned.
+555	This chassis is not assigned to any pool.
+556	This container is not assigned to any pool.
+557	Container is reefer container and There are no TEMP settings
+558	Booking item has Temperature(s)
+559	Booking item has no Temperature(s)
+560	Temperature(s) mismatch
+561	Shipper's name mismatch 
+562	Attached accessory is not foreign owned
+563	Invalid size type, Chassis are not allowed for this operation
+564	Truck is cutoff from pickups by terminal.
+565	Truck is cutoff from all activity by terminal.
+566	Trucker is not active.
+600	$2, Red Tag Chassis Hold
+601	$2, Hold for M&R License.
+602	$2, Must be expanded to 45'.
+603	$2, Authorized to transfer Cal Cotton.
+604	$2, Authorized to transfer Cal Cartage.
+605	$2, Authorized to transfer CFS Victoria St.
+606	$2, Authorized to transfer Imperial CFS.
+607	$2, Yellow Tag Chassis for Off Hire.
+608	$2, Please Return Empty to ITS.
+609	$2, Held by Line.
+610	$2, Outbound Enforcement Team (OET) Hold.
+611	Equipment is held for Deadline.
+612	Equipment is held for Wreck.
+613	Equipment is held for Total Loss.
+614	Yard Manager must confirm o.k. to receive.
+615	Equipment is used for Project.
+616	Equipment is used for Storage.
+617	Equipment is held for Quality Assurance.
+618	Equipment is held for Sales Department.
+619	Container is a Returned Load.
+620	Container contains Bad Fruit.
+621	Ctr has bad fruit and SO is not invoiced.
+622	Ctr is a Returned Load and SO is not invoiced.
+623	Ctr is a Returned Load and SO is invoiced.
+624	Container is not domestic nor for import
+625	Container already associated with a sales order.
+626	Container has a constraint.
+627	Container is not on a chassis.
+628	Associated Chassis has a constraint.
+629	Associated Accessory has a constraint.
+630	No Genset is associated with Chassis.
+631	Associated Genset has a constraint.
+632	Container does not match sales order.
+633	Container is not associated with the sales order.
+634	Sales order $1 is in $2 status.
+637	Container is Hazardous but Booking is not
+638	Size type mismatch but allow outgated.
+641	Pre-arrival is Hazardous, but Booking is not
+642	Booking is Hazardous, but Pre-arrival is not
+643	Pre-Arrival / Booking Item Hazard IMDG mismatch
+650	$2,  Held for USDA Charges
+652	$2. Held for GO - See Trouble Window
+690	VACIS Fees Due
+691	USDA On Dock Fumigation  Fees Due
+700	Go To Free Zone Gate
+701	Multiple service order numbers exist.
+702	Container weight is not within limits.
+703	Safe weight is known for this container.
+704	Error while creating equipment history record.
+705	Error while creating gate transaction record.
+706	Container not found on file.
+707	Union verification is required.
+708	Cooling unit is required for this service order.
+709	Temperature entry is required.
+710	Multiple order items for the same size type.
+711	Invalid sales order number.
+712	No container found for sales order number $1.
+713	Could not lock sales order number $1.
+714	Could not unlock sales order number $1.
+715	Trucker $1 cannot pick up sales order $2.
+716	Sales order $1 not ready for pick up.
+717	Invalid ADM driver ID $1
+718	Sales order $1 not available until $2.
+719	Invalid size type for the Accessory
+720	Could not able to find the line id for this accessory
+721	Genset number not found.
+722	Accessory not on file
+723	Maximum transactions allowed for this trucker is reached.
+724	Size/Type mismatch: container is $1.
+725	Error Location confirmation is required.
+726	Equipment is not in use.
+727	Equipment is not cleared for return.
+728	Sales order does not exists
+729	Genset number required for this service order
+730	Equipment $1 is not a cooling unit.
+731	Stow plan Entry is required.
+732	Equipment is not a genset.
+733	Container not associated with sales order
+734	Sales order $1 has $2 hold status.
+735	Sales order $1 is already assigned to a container.
+736	Pickup already requested for sales order.
+750	Unable to insert Sales order
+770	Multiple Sz/Tps found.
+771	Invalid Lane No.
+772	Ctr not associated with BL. nbr
+773	"Container requires over dimension parameters."
+774	Incomplete ADM Trucker data
+775	Live reefer unplug.
+776	Transaction is not for pickup inspection
+780	Transaction not allowed. Container Loaded with Fruit.
+781	Leaseholder of Booking and Equipment do not match.
+782	Transport order number not found.
+783	Equipment not found on file
+784	Equipment has constraint.
+785	Pickup already requested for this equipment
+786	Must be reserved for EDO.
+787	Leaseholder unknown.
+788	Requires Foreign equipment, requires Foreign lease.
+789	Booking is reefer, size type is not.
+790	Total weight at the out-gate will exceed the maximum allowable weight. Do you want to continue?
+800	Effective End date $1 should be greater than $2
+801	Effective Start Date cannot be earlier than or equal to today's date
+802	Cannot add rate, a rate already exists for same or later time period
+803	Cannot save $1 record.
+804	Cannot $1 container, $2 already exists
+805	$1 parameter is not set.  Contact system administrator.
+806	$1 is not set.
+807	There is a problem with $1
+808	Container has gone out the gate, cannot $1
+809	Cannot $1 $2 record.
+810	Demurrage Customer $1 Not found.
+811	Cannot find $1 demurrage rates
+812	Invalid Month $1
+813	Discharge Date is not set
+814	Import First Free Day is not set
+815	Discharge or Import First Free Day is not set
+816	Port Last Free Day is not set
+817	Line Last Free Day is not set
+818	Equipment Information is not set
+819	Line Import Demurrage not found
+820	Port Import Demurrage not found
+821	Cannot save $1, balance will be less than zero.
+822	Container owes demurrage fees
+823	Container owes other fees
+824	Equipment Constraint could not be removed.  
+825	$1 Timed out
+826	Equipment Group Not Available.
+827	Yard location is on hold.
+828	Equipment Group Restriction.
+888	test
+900	Damage Inspection is Required.
+901	Please Apply Hazardous Placaards at GATE.
+902	Booking details mismatch
+903	New containers are not allowed for this line
+904	Equipment is not a genset
+905	Gross Weight is too high
+906	Container must have a customs status of EXAM
+907	VACIS Hold
+908	US Coast Guard Hold
+909	Hold for VACIS Fee Payment
+910	Coast Guard Inspection Fee
+921	MOL Full Import Container HOLD
+922	MSC Full Import Container HOLD
+923	MAERSK Full Import Container HOLD
+926	Container Ops Hold, Call EXT 8662
+927	CMA Full Import Container HOLD
+928	APL Full Import Container HOLD
+929	HMM Full Import Container HOLD
+945	prueba
+997	Cleaning is Required.
+998	Test
+999	$1
+1000	Damage inspection is required.
+1100	Equipment is not an Export or Rehandle
+1101	Equipment is not in the yard
+1102	Equipment is associated with a container
+1103	Equipment is not an import
+1104	Equipment is not on vessel
+1105	Equipment is not on rail
+1106	VIN not found
+1107	Error $1 $2
+1108	Vessel/Voyage is not valid
+1109	Equipment already in the yard
+1110	Wrong discharge port.
+1111	Attached Cargo Exists. Reload Will Load All
+1112	Cannot $1 Attached Equipment
+1113	Cannot $1 Attached Cargo
+1115	$2, setaside for REPO
+1116	$2, Set Aside for Milk Carton Stock Inspection NYK/COS
+1117	Cleaning is required.
+1118	Container is offdock.
+1500	Mail (SMTP) Server is not set in site profile
+1501	$2, Hazardous Paperwork Required
+2000	Equipment $1 is not a Full Import Container.
+2001	Container $1 does not have an appointment for pickup.
+2002	Container $1 has arrived too early for pickup.
+2003	Container $1 has arrived too late for pickup.
+2004	Container $1 is in a blocked row and must be released.
+2005	Send 1$ to CEM for FHWA
+2006	Container is not a valid Trasiego.
+2007	No truck License Plate Read found for this lane.
+2008	License Plate read does not match the License plate on the Pre-lodge transaction.
+2009	No Pre-lodge found.
+2010	More than one Pre-lodge found.
+2011	Driver ID card does not match the Driver ID on the Pre-lodge transaction.
+2012	The Time Limit from Pre-Gate to In-Gate has been exceeded.
+2013	Seal verification required.  Please wait for BCT operator.
+2014	No Pre-lodge transaction is passed to process.
+2015	Gate transaction $1 does not exists.
+2016	Driver has an Owner Keep container that was not detected by the OCR Portal.
+2017	Owner Keep container $1 can not be used in a transaction
+3001	Warehouse Exam Hold
+8000	Hold Per SS Line Instructions
+8001	Setaside for Vessel Loadout.
+8002	$2, Set Aside for Vessel Loadout
+8887	Apply Hazardous Placards At GATE.
+8888	test
+9001	Web Application Profile is not set
+9002	$2, Outbound Enforcement Team (OET) Hold
+9003	Transaction not allowed. Container Loaded with Fruit.
+9004	Please contact the bulk dispatcher
+9005	Use APL container Only
+9006	Use Dual Voltage Reefer
+9007	Use Only Equipment series MATU511577 or higher
+9008	Use Only Equipment series MATU687 or higher
+9009	Use Only Equipment series MATU687
+9010	Insert not allowed.
+9011	There are containers associated with this trucker.  Do you want to delete this record?
+9012	Warning: Setting Billing Address the same with Mailing Address would clear all Billing Address Fields!
+9013	This Pool Code does not exist.
+9014	Resequencing complete.
+9015	No Service Order Item Exists for this container Size Type.
+9016	Parameter setting is Discharge date.  Input not allowed.
+9017	User not found in the USERS table.
+9018	Sort group changed:
+9019	New sort group created:
+9020	You must specify a vessel and a voyage before selecting a line.
+9021	You must specify a vessel before selecting a voyage.
+9022	Voyage number $1 is not a valid outbound voyage nbr for vessel $2.
+9023	Equipment Owner and the Service Order Line do not share the equffipment.
+10001	Invalid Equipment: $1
+10002	Container must be entered
+10003	Equipment use missing for equipment $1
+10004	Notifications have been sent successfully.
+10005	Container $1 does not exist. Would you like to create the container record?
+10006	This container or cargo has been adandoned.
+10007	Container must be a full import or manifested $1 empty for this line/vessel/voyage.
+10008	Cannot delete Equipment Size/Type while Basic Size/Type exists.
+10009	Cannot delete Equipment Size/Types while Equipment Details exists.
+10010	Cannot delete Equipment Size/Types while Equipment exists.
+10011	Cannot delete Equipment Size/Types while Gate Transaction exists.
+10012	Cannot delete Equipment Size/Types while Large Lot Minimums exists.
+10013	Cannot delete Equipment Size/Types while Pool Rate exists
+10014	Cannot delete Equipment Size/Types while Required Accessories exists.
+10015	Cannot delete Equipment Size/Types while Service Order Item exists.
+10016	Cannot delete Equipment Size/Types while Size Type Feature exists.
+10017	Cannot delete Equipment Size/Types while Vessel Statistics exists.
+10018	Cannot delete Size/Type Aliases while Service Order Item exists.
+10019	Cannot update Accessory in Equipment table during validation
+10020	Cannot update Chasis in Equipment table during validation
+10021	Update of Accessory in Equipment table failed.
+10022	Update of Chasis in Equipment table failed.
+10023	Cannot Insert into Equipment Constraints table.
+10024	Equipment exists against this $1 and cannot be deleted.
+10025	Cannot delete Constraint while $1 exists.
+10026	Constraints have been copied.
+10027	EIR not found for $1 for today.
+10028	Please enter a Container number.
+10029	Please enter a Yard Spot.
+10030	Cannot change equipment size/type to that of a different class.
+10031	Accessory type is for a genset. "Requires Genset" has not been checked.
+10032	Accessory type not valid if "$1" not checked.
+10033	No hazard records exist for this equipment.
+10034	No Current Use for Equipment.
+10035	Live Reefer requires Temperature and Vent information.
+10036	No Container/Chassis data in this block.
+10037	This is not a valid piece of equipment.
+10038	Pool is not for $1.
+10039	Pool override must be X or blank.
+10040	Pool own equipment found. This will change the eq owner to pool id
+10041	Cannot enter Chassis from Pool if Owner/Line Chassis is not null.
+10042	Cannot enter Owner Chassis if chassis type or feature is specified.
+10043	Cannot enter Owner/Line Chassis if Chassis from Pool is entered.
+10044	Cannot create pre-arrival hazards becuase container is already in yard.
+10045	EDO number $1 is currently locked by user $2. Please try again later
+10046	Overdimension can only be set for a container.
+10047	$1 is a chassis.  Only containers can be modified.
+10048	$1 is an accessory. Only containers can be modified.
+10049	$1 is not a valid feature for line $2 and size type $3.
+10050	Cannot onhire equipment stowplanned for a current vessel.
+10051	Cannot update Equipment Size/Type while Equipment exists.
+10052	Container is offdock and cannot be updated.
+10053	Entry not allowed -- Equipment is not temperature controlled.
+10054	Stowplan cannot be entered because the equipmnet is in the yard.
+10055	Failed to create equipment work history.
+10056	Equipment should be in yard or on vessel.
+10057	Equipment is assigned to pool $1 but using line has no access to this pool.
+10058	Equipment must be an accessory.
+10059	Equipment $1 has been discharged by another user.
+10060	Equipment $1 is locked by user $2. Please try again later.
+10061	Roll Complete - Equipment has been updated.
+10062	Invalid GENSET/Cooling Unit Type.
+10063	Equipment is not a Container or Accessory.
+10064	Related Chassis is already married to another piece of equipment.
+10065	Related Accessory is already married to another piece of equipment.
+10066	Equipment is not a Container or Chassis.
+10067	Related Chassis Equipment Number is not a chassis.
+10068	Related Accessory Equipment Number is not an Accessory.
+10069	Equipment already for this Vessel/Voyage. Please query it to update.
+10070	Equipment is currently reserved and cannot be onhired.
+10071	Equipment is in the yard and cannot be onhired.
+10072	Equipment is already under you control and cannot be onhired.
+10073	Equipment is currently assigned to a pool to which user has no access.
+10074	Equipment is reserved for another booking.
+10075	Transaction complete: $1 containers reassigned from $2 to $3.
+10076	Related equipment number $1 does not exist.
+10077	No equipment needs discharging from this vessel and voyage.
+10078	Enter ''X'' to select Equipment.
+10079	Equipment $1 not found.
+10080	Container $1 has been already deramped.
+10081	Deramping equipment $1.
+10082	Cannot insert into Equipment.
+10083	Equipment must not be OWN.
+10084	Equipment already on file. Change not allowed.
+10085	Equipment must be of size/type $1. Equipment entered is $2.
+10086	Equipment owner must be $1. Owner of equipment entered is $2.
+10087	Equipment must be of class $1. Equipment entered is $2.
+10088	Update of Equipment failed.
+10089	Equipment already assigned to this VEPO.
+10090	Cannot delete Equipment Types while Equipment Size/Types exists.
+10091	Cannot delete Equipment Heights while Equipment Size/Types exist.
+10092	Cannot delete Equipment Sizes while Equipment Size/Types exist.
+10093	Can not access equipment that has not been previously owned or used by line.
+10094	Table type does not match.
+10095	No equipment found for this vessel/voyage.
+10096	Equipment must be in the Yard.
+10097	Equipment Category must be''E'' for export or ''I'' for import.
+10098	Enter ''X'' to select equipment for discharge.
+10100	Make Current Use
+10101	Do you want to delete the history records associated with the current use?
+10102	The existing use will be deleted and the equipment use in focus will become the current use. Do you want tocontinue?
+10103	Unable to update Equipment Details.
+10104	Unable to update Pool Assignments.
+10105	Unable to update Equipment Works.
+10106	Unable to update Equipment Moves.
+10107	Unable to update Equipment History.
+10108	nable to update Gate Transactions.
+10109	Unable to update Train Car Equipment.
+10110	Error deleting.
+10111	Gross weight must be between tare weight and safe weight.
+10112	Invalid value for Status.
+10113	OverHeight Conversion Error:
+10114	OverLength Front Conversion Error:
+10115	OverLength Back Conversion Error:
+10116	OverWidth Left Conversion Error:
+10117	OverWidth Right Conversion Error:
+10118	Over dimension height in centimeters.
+10119	Over dimension length in the front of the container in centimeters.
+10120	Over dimension length in the back of the container in centimeters.
+10121	Over dimension width on the left side of the container in centimeters.
+10122	Over dimension width on the right side of the container in centimeters.
+10123	Equipment number is a required field. Field must be entered.
+10124	Owner Id is a required field. Field must be entered.
+10125	Equipment use in focus is already the current use. Please select the non-current use.
+10126	Equipment should have a booking and should be in the Yard.
+10127	Record could not be deleted. Child Records Found.
+10128	Equipment is not of Import category.
+10129	Equipment has existing assignment and override is not allowed.
+10130	Equipment number does not pass check digit calculation test. Check equipment and re-enter the number.
+10131	Equipment is not of Empty category.
+10132	Selected containers must have the same size type.
+10133	Cannot delete Equipment Group while Equipment Uses exists.
+10134	Cannot delete a sort group that is used in equipment_uses.
+10135	Equipment is not of Export catgegory.
+10136	Equipment is not a transship and cannot be reverted.
+10137	Equipment has no prior Import service order and thus cannot be reverted.
+10138	Dupliacte containers are selected.  They are removed for processing.
+10139	Equipment has an existing train assignment already.
+10140	Equipment departure mode must be R or T for mass edit.
+10141	Location type must have a value.
+10150	Container not married to any Chassis
+10201	Equipment hold for Traffic Mitigation Fee
+10202	Container should have the same Size Type as of Booking Item.
+10203	Cannot add more containers than what the Booking item is set up for.
+10204	There are more than one pool assignments found.
+10205	Roll not allowed for this line.
+10206	Container was rejected by Customs.
+10207	Equipment should be Prefix with $1
+10208	Equipment should not be Prefix with $
+10209	Equipment $1 should be in range $2 and $3
+10210	Equipment $1 should not be in range $2 and $3
+10211	Prefix should not be start with $1
+10212	Range should include $1
+10213	Range $1 and $2 should not include $3
+10214	size type do not match for this booking
+10215	Must enter search criteria
+10216	Tare Weight Too Low for This Equipment Size/Type.
+10217	Tare Weight Too High for This Equipment Size/Type.
+10218	Safe Weight Too Low for This Equipment Size/Type.
+10219	Safe Weight Too High for This Equipment Size/Type.
+10220	As a Line user, you may not remove a constraint of this type.
+10221	Service Item $1 created on $2 cannot be deleted due to the type of event, or the status of billing data for this Service Item.
+10222	Warehouse Exam
+10223	Cannot set to an EU container when customs status is HOLD.
+10224	Cannot set customs status to HOLD for an EU container.
+10225	$1 has an in yard date assigned
+10226	$1 is not a valid size type id
+10227	Oversize entries must be integer values
+10228	Valid Vessel, Voyage and Port of Departure are required.
+10229	Vessel/Voyage combination should be entered.
+10230	Mixing equipment categories not supported at this time.
+10231	Vessel/Voyage $1/$2 has already sailed. Operation not allowed
+10232	Load Function is available only for category Export or Rehandle
+10233	Load Function is allowed only for equipment(s) in yard/rail/on-hand
+10234	Discharge Function is allowed only for equipment(s)/Breakbulk on a Vessel
+10235	Transship Function available only for Import Full Containers
+10236	Transship Function is allowed only for equipment on a Vessel or in the Yard
+10237	Are you sure you want to change the category from $1 to $2?
+10238	Can't set release to load to container $1
+10240	Multiple matches found. Please enter full container number.
+10241	All container matches are OffDock. Please enter full container number.
+10242	No matches found. Please enter full container number.
+10243	Container could not be found or is unavailable
+10244	Equipment hold for Clean Truck Fee
+10245	Container and Chassis must be both ondock or both offdock
+10246	Chassis is part of a bundle
+10247	Container is already attached to another chassis
+10248	Container and chassis are already attached to eachother
+10249	Chassis is already attached to another container
+10250	Chassis $1 does not exist
+10251	Chassis $1 is bundled on $2
+10252	Chassis $1 is attached to a container
+10253	Cannot bundle $1, is already bundled on $2
+10254	Chassis $1 is already bundled on $2
+10255	Chassis $1 is attached to a container
+10256	Cannot bundle $2 on $1, there are already 5 equipment on this bundle
+10257	Chassis $1 is not bundled on $2
+10258	Base chassis $1 is not part of a bundle
+10259	Cannot unbundle chassis $1 as is not the top most
+10260	Execute Equipment Mount?
+10261	Execute Equipment Demount?
+10262	Remove top chassis from bundle?
+10263	Remove all chassis from bundle?
+10264	Transship assignment not allowed for rehandle equipment.
+10265	Service already applied. Do you wish to add this service?
+10266	Application of service cancelled.
+10267	Cannot select this record, move is already complete.
+10268	Position, crane, posted date and seal #1 are mandatory
+10269	Cannot delete equipment use record while associated history, service requests or invoices exist.
+10270	The data have been updated. Please refresh this page.
+10271	Equipment must be on a vessel
+10296	Equipment Locked. Rail Moves are not allowed
+10297	Equipment Locked. Vessel Moves are not allowed
+10298	Equipment Locked. Gate Moves are not allowed
+10299	Equipment Locked. No updates are allowed from Vanguard
+10415	Error: Agreement with this Line already exists for Trucker.
+10416	Hold for Subleased Equipment. Contact Gate Support
+10417	BADFRUIT Constraint required to change Import Fruit to Export.
+10418	Container not available - Area closed due to vsl discharge.
+10419	CFS HOLD - NOT AVAILABLE FOR PICK UP.
+10420	Invalid Line/Agent Combination.
+10421	Locking Request to Planning System Denied.
+10422	Locking Request to Planning System Timed Out.
+10423	Container should not be in yard for this action
+10424	Container number cannot have more than 11 characters
+10425	MAJOR or MINOR damage type must be selected.
+10426	Changing overdimension is not allowed for Size Type $1.
+10427	Equipment is not valid for customs or line release to be set.
+11000	Booking item is currently locked by user $1. Please try again later.
+11001	Booking already exists with same Number, Line, Vessel, Outbound Voyage.
+11002	Booking item exists for these attributes
+11003	Booking must be entered or queried.
+11004	At least one item should exist for this booking.
+11005	Offdock equipment exists for this booking.
+11006	Booking item is not a live reefer.
+11010	Cannot delete booking when booking items still exists.
+11011	Booking is associated with more than 1 vessel. Please select 1 vessel to proceed.
+11012	Splits must be done separately per sz/tp
+11013	Equipment should be in yard or off dock.
+11014	Required Temp must be between $1 and $2
+11015	Equipment number must be new.
+11016	Vent setting of $1 must be between $2 and $3
+11017	Vent setting of FO must be in range of  C, 1/4, 1/2,3/4, or O
+11018	More than one primary key row for foreign key value
+11019	Entered new Booking/VEPO Number does not exist, Please enter existing Booking/VEPO Number
+11020	Please selete $1 Item to display Details
+11021	Cannot delete booking when booking items still exists
+11022	Must not use double quotes in notes field
+11023	Temperature is out of  (-148 F to +212 F) or (+/- $1 C)  range
+11024	$1 size/type must be chosen
+11025	Invalid value. Enter either F or C
+11026	Vent setting in cubic feet per minute (e.g. 0-150)
+11027	Vent setting in cubic meters per hour (e.g. 0-255)
+11028	Vent setting in fraction open (e.g. C, 1/4, 1/2,3/4, or O)
+11029	Vent setting in percentage open (e.g. 0-100)
+11030	Maximum temperature must be greater than minimum
+11031	Cannot enter OWNER/LINE Chassis if Chassis from Pool is entered
+11032	Cannot enter OWNER Chassis if Chassis type or feature specified
+11033	Equipment must be an accessory
+11034	This equipment number does not exist
+11035	More than one primary key row for key value
+11036	Record $ failed
+11037	Insert of SERVICE ORDER must be in context of SERVICE ORDER ITEMS
+11038	You must specify DON''T USE or ONLY USE for this prefix
+11039	Delete failed
+11040	No equipment number has been entered
+11041	Commit thinks there are no outstanding changes
+11042	Cannot enter Chassis from Pool if OWNER/LINE Chassis is not null
+11043	New number and confirm number should be same
+11044	Equipments should not be split more than booking quantity
+11045	Booking is not cleared for TMF
+11046	Another user has made changes to the Delivery Order.  Please requery this equipment prior to making changes.
+11047	Split not permitted to booking that is not guaranteed
+11048	The following Cargo Items will be split too: $1
+11049	The following Equipment will be split too: $1
+11050	Origin is required.
+11051	Port of loading is required.
+11052	Port of discharge is required.
+11053	Final destination is required.
+11054	Error: Cargo on this booking has attached container(s). Cargo must be stripped from the container(s) or split to a new booking to allow this update.
+11055	BOL closed on this Vessel/Voyage
+11056	No substitution permitted for this Vessel/Voyage.
+11057	Booking exists with different Vessel, Outbound Voyage.
+11058	Split Booking not permitted. Reefer Data in the current Booking doesn't match the Reefer Data in the new Booking.
+12001	The total package quantity must match the declared package quantity
+12002	Invalid Cargo $1
+12003	There is no Terminal Service designated as a split service.
+12004	Cargo associated with a pending service request may not be split.
+12005	Cubic dimensions of cargo in cubic $1.
+12006	Service code and Date must be entered
+12007	Service code, Description and Cargo Code must be entered
+12008	Service code and Cargo associations exists. Delete not allowed
+12009	No record selected for delete
+12010	Invalid Cargo Service
+12011	Service date must be entered to add or replace services
+12012	Service code must be selected to add or delete service
+12013	Mixing multiple type of cargo is not supported at this time.
+12014	Mass Cargo Services Update Completed
+12015	B.O.L Number, Vessel Voyage, Load Port and Line are Mandatory
+12016	Booking Number, Vessel Voyage, Discharge Port, Line are mandatory
+12017	No data to Load/Receive/Deliver. Please query, Select the records and use this option
+12018	Multiple cargo items not supported. Select only one
+12019	Please enter at least one field before Search
+12020	No records found matching your search criteria
+12021	No record(s) selected for this operation
+12022	You can delete only one record at a time
+12023	Damage recording allowed for cargo items in YARD
+12024	Attachment Complete. Cargo Vanned into Equipment (Success).
+12025	Both Cargo and Equipment must be in the Yard or on Vessel.
+12026	Eqipment not 'CTR' Class.
+12027	Cannot Van Export Cargo into an Import Container.
+12028	Cannot Van Import Cargo into Export CTR without Transship Flag being set.
+12029	No Equipment Found.
+12030	WARNING! Import transship Equipment does not have a booking. Make Equipment an export against the Cargo Booking? Attach/Cancel?
+12031	Equipment Booking (Booking Number: $1, Vsl/Voy: $2, POD: $3) and Cargo Booking are different. Booking cannot be updated until cargo is devanned.
+12032	WARNING! Cargo is already attached to equipment. Attach cargo to a different piece of equipment (Booking Number: $1, Vsl/Voy: $2, POD: $3)? Attach/Cancel?
+12033	Error: Service order detailas not found.
+12034	Cargo not in Yard or on Vessel.
+12035	You must select ID, VIN or Serial.
+12036	Associated Cargo record(s) exists. Delete not allowed
+12037	Custom View Setup exists. Delete not allowed
+12038	Cargo Code Groups Exists. Delete not allowed
+12039	Code and Description Must be entered
+12040	Data already exists
+12041	No Cargo record selected to attach line equipment
+12042	No VIN/ID/Serial(s) are provided. Closing the form...
+12043	Mass Edit is successful!
+12044	No cargo record selected to attach cargo
+12045	No cargo record(s) selected for mass service update
+12046	Delete processed
+12047	Attachment Complete.
+12048	Cargo Item does not exist.
+12049	The Cargo Items are not both Exports or Imports or at least one being a Transship.
+12050	WARNING! Cargo locations are different. Select Cargo Location.
+12051	WARNING! Bookings are different. Select Bookings.
+12052	WARNING! Cargo to attach is not on Equipment. VAN attached cargo to Equipment?
+12053	WARNING! Selected Cargo item is not on Equipment. DEVAN Cargo to attach from its Equipment and associate with Selected Cargo?
+12054	BOL Number, Vessel Voyage,Discharge Port, Load Port and Line  are mandatory
+12055	New Service Order Created
+12056	New B.O.L Created
+12057	Unable to print consignee label
+12058	No records matching your search condition.
+12059	Please provide either a Bill of Lading or a Booking number, but not both.
+12060	Mixing Export and Import cargo is not supported at this time.
+12061	Export Cargo without Booking.
+12062	Cargo Items are attached to different pieces of equipment.Devan one cargo item from the detail screen.
+12063	Associate Cargo/s not found.
+12065	Please enter VAN Date and Time.
+12066	Please enter DEVAN Date and Time.
+12067	Create Record not allowed in this block.
+12068	Secondary equipment description is mandatory
+12069	Invalid Equipment Number
+12070	Unable to locate Service Order
+12071	Apply Damage allowed only on cargo in Yard
+12072	Can not attach transship cargo to import cargo.
+12073	Can not attach cargo to itself.
+12074	WARNING! Cargo is already attached to equipment. Attach cargo to a different piece of equipment. Attach/Cancel?
+12075	Cannot Van Import Cargo into a Transship Container.
+12076	Cannot Van Transship Cargo into an Import Container.
+12077	Please save all open changes prior to starting a split.
+12078	Select cargo item(s) to DEVAN
+12079	Invalid Equipment Use Category.
+12080	Invalid Cargo category.
+12081	Mixing multiple cargo types not allowed for this operation
+12082	$1 Cargo Items Rolled for Booking $2
+12083	$1 Cargo Items Rolled for BOL $2
+12084	DEVAN Completed
+12085	The location of the equipment entered does not match the location specified for the cargo.
+12086	Service code $1 exists for cargo code $2
+12087	Service $1 already exist on service date $2
+12088	WARNING! More than one record found for this Cargo ID. Select correct cargo.
+12089	Cannot Van Export Cargo into a Domestic Container.
+12090	Multiple cargo codes not supported.
+12091	Cargo code description must be entered
+12092	B.O.L $1 already exists
+12093	Booking $1 already exists
+12094	Error: Invalid Constraint: Please Use List of Values.
+12095	The following import Eq is attached to the cargo item you are assigning transship information.Attached equipment must be a transship or export before transship can be assigned to the cargo.
+12096	The following cargo is attached to the item you have assigned transship information. Attached cargo will also be assigned the same transship information.
+12097	The following export or transship equipment is attached to the cargo item. You can not remove the transship information from the cargo unless it is devanned from equipment.
+12098	The following cargo is assigned to item you are removing transship information from. Attached cargo will also have transship information removed.
+12099	Tranship assignment allowed only on import cargo
+12100	Cargo Group missing. No entry found for related field value $1
+12101	Error: Import attached equipment exists. Cannot assign transship to cargo.
+12102	Error: Attached equipment exists with different booking information.  Use detail screen to assign transship.
+12103	Warning. Attached cargo exists.  ReAssign will assign transship info to all.
+12104	Error: Cannot assign transship to the attached cargo $1.
+12105	Warning: Additional cargo exists on attached equipment.  ReAssign will assign transship to all.
+12106	Error: Cargo item is already a transship.
+12107	Error: Cargo item is already a transship with this Outbound Booking.
+12108	Warning: Cargo item is already a transship with a different Outbound Booking.  Reassign will change the booking.
+12109	Error: Cargo is not a transship.
+12110	Warning: Attached cargo exists.  ReAssign will remove the transship information from all.
+12111	Error:  Attached transship or export equipment exists.  Cannot remove cargo transship.
+12112	"The  following  Eq  is  attached  to  the  item  you are moving.  Eq  will  be  moved  to  the  new  yard location 1$.  Additional  cargo  on  the  Eq,  if any, will  also  be  moved."
+12113	"The  following  cargo  is  attached  to  the  item  you  are moving.  Attached  cargo  will  be  moved  to  the  new yard  location."
+12114	"The  following  cargo  is  attached  to  the  item  you  are moving.  Please  choose  the  appropriate  action   from the  choices  below."
+12115	Attached Cargo:
+12116	Error: Cargo and equipment are on different Vessel.
+12117	Error: Cargo is Not attached to Equipment.
+12118	Additional Cargo on Equipment
+12119	Cargo is already in the yard
+12120	Error: Equipment not in use.
+12121	WARNING! Import Transship Equipment does not have a booking. Assign Cargo's Outbound Booking to the Equipment? Attach/Cancel?
+12122	Invalid Location.
+12123	Cargo is not an Export or Rehandle
+12124	Cargo is not an Import
+12125	Cargo is not on Vessel
+12126	Cargo is not on Rail
+12127	Invalid Line Release Status for Cargo
+12128	Invalid Customs Status for Cargo
+12129	Shippers ID must be entered.
+12130	Shipper has prefixes, Do you want to delete both?
+12131	Do you want to delete this record?
+12132	Shippers name must be entered.
+12133	"Error: Data has been modified, please press COMMIT before you call next screen."
+12134	Error finding alert STD_ALT_ASK_DELETE.
+12135	"Warning: Setting Billing Address the same with Mailing Address, would clear all Billing Address Fields!,Do you want to continue ?"
+12136	Address Confirmation
+12137	CONSIGNEES name must be entered.
+12138	Referenced in Cargo Customers. Delete not allowed.
+12139	CONSIGNEES ID must be entered.
+12140	AGENTS name must be entered.
+12141	AGENTS ID must be entered.
+12142	 ID $1 already exists.
+12143	Cargo is already exists for this Bill of Lading.
+12144	Cargo already exists for this booking.
+12145	Reaction cannot be STOP if spawn is set on.
+12146	Duplicate service orders with same vessel information are exists.
+12147	Can Not attach Cargo with itself.
+12148	Cargo $1: Error: $2
+12149	Attribute VIR Number is a required field
+12150	Not a valid charge type for $1
+12151	$1 date should be greater than LINE last free date
+12152	$1 date should be greater than PORT last free date
+12153	No Collectable Charges found
+12154	Total Check does not cover Fees for Collection
+12155	Cargo records exists. You cannot delete this record
+12156	You must select one or more records to $1
+12157	Amount Due must be entered and should be positive
+12158	Check Number must be entered for the payment type selected
+12159	Total Check must be greater than or equal to the Amount Paid
+12160	Account $1 does not exist
+12161	You must enter either number of days or amount or a date range
+12162	Adjustment amount must be positive
+12163	Amount paid should match the total charge
+12164	Amount paid should match the total check for the charge type selected
+12165	Total check should be equal to the amount paid times the number of selected containers for the selected charge type
+12166	Negative adjustments not allowed for this container
+12167	You have reached the maximum number of items you can select
+12168	Cannot Modify/Delete the $1. Referenced in $2
+12169	You may not split a cargo item that is Offdock.
+12170	You may not split a cargo item that has been released.
+12171	Single Quote is not allowed
+12172	Must roll the cargo or delete the cargo before the $1 can be deleted
+12173	You can select only ID,VIN or Serial not all of them
+12174	Can not attach export cargo to import cargo.
+12175	Cargo has different Vessel, Voyage, Discharge Port, Destination or Line.
+12176	Cargo locations are different. Re-attach will attach cargo with different locations.
+12177	Cargo ID/Serial/VIN must be entered.
+12178	Cannot split cargo to a booking with the same cargo ID.
+12179	Cannot assign import cargo to a booking; cargo is not a transship.
+12180	Cargo attached to cargo; cannot assign to new booking.
+12181	Cargo attached to equipment with different Vessel, Voyage, Discharge Port or Destination.
+12182	Cannot set to EU cargo when customs status is HOLD.
+12183	Cannot set customs status to HOLD for EU cargo.
+12184	Cargo must be in the Yard
+12185	Cargo $1 is not in yard
+12186	Too many transactions for cargo item
+12187	Error creating cargo
+12188	Cargo weight must be greater than 0
+12189	Cargo quantity must be greater than 0
+12190	Please select only one item for this action.
+12191	Cargo is not off dock.
+12192	Delivery is not the last action performed on this Cargo.
+12193	Last Delivery on this Cargo is more than 30 days old.
+12194	WARNING! Attached Equipment exists. $1 will unassociate all.
+12195	Container already assigned to this cargo declaration
+12196	Cannot delete cargo that is already in the Yard.
+12197	Cannot delete cargo that has gate transactions (non Pre-lodge) against it.
+12198	Cannot delete cargo as it is associated with container $1
+12199	Service request $1 (there may be others too) against the cargo must be deleted before cargo can be deleted.
+12200	Cannot delete cargo while still associated with equipment.
+12201	Cannot delete cargo while still associated with position details.
+12202	Cannot delete cargo while still associated with hazards.
+12203	Cannot delete cargo while still associated with constraints.
+12204	Cannot delete cargo while still associated with history.
+12205	Cannot delete cargo while still associated with releases.
+12206	Cannot delete cargo while still associated with gate transactions and/or truck visits.
+12207	Cannot determine Cargo Code.
+12208	Shipper ID does not exist.
+12209	$1 B/Ls exist for $2.
+12210	Total number of packages in CFS locations must equal actual packages ($1) for each B/L item.
+12211	Please review / update quantities per position on original BL-item.
+12212	The current use for $1 does not match B/L. What would you like to do?
+12213	Create &New Use
+12214	Link to Current Use
+12215	A new empty use will be created for $1.
+12216	Do not confirm
+12217	Invalid Location; cannot plan Offdock cargo to Vessel.
+12218	Please remove the added cargo before attempting to devan
+12219	Import Cargo and Empty Container must both be in the yard.
+12220	Transship cargo must be an export with a valid outbound booking.
+12221	Discharge Port does not match for cargo and container.
+12222	Cargo Bill of Lading Number is required.
+12223	Cargo Net Weight is required.
+12224	Cargo Note is required.
+12225	Cargo Package Type is invalid.
+12226	This cargo is already attached to a container.
+12227	Container is booked as an empty.
+12228	Line for cargo and line for container do not match.
+12229	Cargo must be an import or an export. Stuff not allowed.
+12230	Booking number is not required for import stuffing, it will be ignored
+12231	Equipment doesn't have a current use, update of Trucker or Chassis Restriction is not possible.
+12232	Current use isn't assigned to an import order, update of Trucker or Chassis Restriction is not possible.
+12234	Cargo $1 is already assigned to a booking or BOL.
+12235	Service $1 for cargo $2, service order $3 is already done.
+12500	Service requirements already exists for thsi Szie/Type.
+12501	Size/Type is not booked for this service order.
+12502	This action is possible with these service(s): $1.
+12503	Entered Booking number doesn't coresspond with chosen "Using Line" or "Size/Type" value
+12504	Entered BL doesn't coresspond with chosen "Using Line" value
+13000	Cannot delete Gate Lanes while Truck Visit exists.
+13001	Tractor license is cutoff from all activity by terminal
+13002	Tractor license has expired from terminal.
+13003	Trucker is inactive.
+13004	Invalid Trucker code
+13005	Trucker is cutoff from all activity by the terminal.
+13006	Booking/EDO number is required
+13007	Booking/EDO number not on file
+13008	Booking/EDO gkey is null
+13009	Booking/EDO item  not on file.
+13010	Gate transaction record does not exist.
+13011	Placard is required.
+13012	Scale weight is required.
+13013	Pending charges exist for this equipment.
+13014	Equipment not released by customs.
+13015	Invalid dray status.  Dray status must be import.
+13016	Booking pickup must be less than quantity ordered.
+13017	No vessel/voyage found set up for this equipmemnt.
+13018	Voyage cutoff date must be greater than today's date.
+13019	Arrival mode must be 'T'.
+13020	Departure mode must be 'T'.
+13021	Equipment status must be empty.
+13022	Equipment status must be full.
+13023	Equipment must not be flagged transship.
+13024	Equipment category must be export.
+13025	Equipment category must be import.
+13026	Equipment category must be export or import.
+13027	Equipment category must be export or empty.
+13028	Equipment must not be in the yard.
+13029	Equipment must be in the yard.
+13030	No booking for VEPO found for this container.
+13031	Invalid wtask for pre-gate, cannot validate.
+13032	Equipment category must be empty or import.
+13033	Dray status must be 'R' when category is export.
+13034	Task must be pick full or pick empty to print ticket.
+13035	Error creating pre-gate for $1. $2
+13036	You can either enter event from/to dates or last days, not both.
+13037	You cannot query for an event user when the event is HANDLED.
+13038	To save this search, you must select any search criteria other than transaction.
+13039	Container already in the yard
+13040	New bare chassis call line for authorization.
+13041	Please enter the Transaction number for outgate processing.
+13042	This is a completed transaction not a PreGate/Error. Please check the PreGate number.
+13043	This is a cancelled transaction not a PreGate/Error. Please check the PreGate number.
+13044	Transaction is not a PreGate. Please check the PreGate number.
+13045	There is no screen for $1
+13046	Container does not match pick up request.
+13047	Pickup of empty not allowed for $1, $2.
+13048	Bare accessory in not allowed for: $1, $2.
+13049	$1, $2 containers not allowed in full.
+13050	Pickup of full not allowed for $1, $2.
+13051	Bare chassis in not allowed for: $1, $2.
+13052	$1, $2 containers not allowed Dray In.
+13053	Cannot cancel $1. Only PICK or PREGATE transactions can be cancelled.
+13054	Are you sure you want to cancel the selected transaction(s)?
+13055	Problem with equipment size types.
+13056	Billing mode is required
+13057	Chassis weight is required.
+13058	Truck weight is required.
+13059	Gate transaction is not allowed, past gate cutoff on line vessel visits
+13060	Trucker needs to be entered for the service order for auto outgate to proceed.
+13061	Truck RFID number is invalid.
+13062	There is no valid truck association.
+13063	There is no valid driver registered with the trucking company $1 to drive this truck.
+13064	Truck license number is invalid.
+13065	Gate Transaction date is greater than system date.
+13066	Equipment not eligable for Fullout
+13067	Dock Handling Fee type is required.
+13068	Container Number is required.
+13069	Equipment not eligable for drayoff.
+13070	Chassis size type is different from booking/EDO size type.
+13071	Genset size type is different from booking/EDO size type.
+13072	No entry found in SICREFIS for equipment $1.
+13073	VEPO number not on file
+13074	VEPO item  not on file.
+13075	VEPO size/type is full.
+13076	Transaction has not been confirmed by handheld.
+13077	Empty Ingate transaction has not been processed.
+13078	Entry of a Truck Visit is required.
+13079	Truck Visit record does not exist.  Please check the Truck Visit number.
+13080	Driver and Truck for Truck Visit gate transactions is not distinct.  Check the Truck Visit number.
+13081	Transaction Status of a Truck Visit transaction is not $1.
+13082	A Truck Visit transaction has an invalid Move Type of $1.
+13083	Move Type ($1) of a Truck Visit transaction has an invalid Transaction Status of $2.
+13084	Cargo has not been confirmed at CFS.
+13085	Transaction Status ($1) and Move Type ($2) of a Truck Visit transaction is invalid for $3 processing.
+13086	Accessory is required
+13087	More than 4 Gate Transactions exist for this Truck Visit.
+13088	Declaration number does not match
+13089	Freight forwarder not found
+13090	Pickup quantity can't exceed actual quantity for $1
+13091	Pickup weight can't exceed actual weight for $1
+13092	Mixing cargo and containers in the same visit is not allowed
+13093	Cannot cancel $1. Only PRE-LODGE transactions can be cancelled.
+13094	CTR not Pre-Lodge
+13095	CTR not found
+13096	Freight forwarder does not match
+13097	Transaction $1 can not be updated, ony PRE-LODGES can be updated
+13098	Visit has at least 1 transaction that is no longer a PRE-LODGE, this transaction can not be updated
+13099	Category must be I or dray status must be set to create a pick up transaction
+13100	Outgate at lane equipped with scale.
+13101	Advise trucker to outgate at lane equipped with scale.
+13102	Container WT exceeds safe WT.
+13103	Pin has expired.
+13104	Truck Visit #: $1 is already full for $2 moves, container type: $3 not accepted 
+13105	Container $1 does not match pick up request.
+13106	Invalid ISO Code
+13107	ISO not unique
+13108	ISO Code required
+13109	Chassis Out move Container are not allow.
+13110	One stop transaction for $1 is not allowed.
+13111	Non-Matson container cannot exit domestic gate.
+13112	Scale Weight exceed Truck type maximum gross weight.
+13113	Truck type not found.
+13114	Driver ID not found.
+13115	Truck Type is required field.
+13116	The eModal billing code was not Found.
+13117	Truck is Banned from the terminal.
+13118	Service Order hold for Clean Truck Fee.
+13119	Cannot PRE-LODGE, container assigned to a VEPO.
+13121	Trucker not found with $1
+13122	Trucker not found with service_order trkr_id $1 so truck_id: $2
+13123	No RFID tag number exists for this truck license.
+13124	This RFID number already registered for License $1
+13126	Weight verification required. Container must stop at the Weigh Station.
+13127	No valid transactions found for this Truck $1.
+13128	ISO Code $1 not found.
+13130	Container Dray Status set to $1.
+13142	No valid transactions found for this Truck Visit number.
+13143	BOL number does not exist or No containers found for the BOL
+13144	No container is available for pick up for the entered BOL number
+13145	Equipment returned from planning is not in the Bill
+13200	BOL number is required.
+13201	BOL number is invalid for container entered.
+13205	Hazardous placard has not been verified.
+13206	Container has not been guaranteed.
+13207	Booking has not been verified.
+13208	Booking has not been guaranteed.
+13209	Container has been reserved for another service order.
+13210	Seal number is required.
+13211	Genset size/type is required.
+13212	Genset linecode is required.
+13213	Chassis is damaged.
+13220	Trucker is not authorized for one-stop empty out.
+13221	No service order has been set up for one-stop empty out.
+13222	Chassis Size type is required.
+13223	Chassis line id is required.
+13224	Illogical move not allowed for Container In Move.
+13225	Illogical move not allowed for Chassis In Move.
+13226	Illogical move not allowed for Genset In Move.
+13227	Import Empty not Allow for Outgate.
+13228	Chassis Number Required
+13229	Chassis Prefix Required
+13230	Missing motor carrier SCAC
+13231	Invalid motor carrier SCAC
+13232	Motor carrier has been suspended by TRAC
+13233	Motor carrier has no relationship with TRAC. Verify SCAC code
+13234	Motor carrier is inactive in TRAC system
+13235	Motor carrier is not yet approved by TRAC
+13236	Not a valid TRAC chassis ID
+13237	Container is not on this order
+13238	Order is not TRIN
+13239	Order is not TROUT
+13240	Order item does not exist
+13241	Order item container is not null
+13242	Plan System did not return a Container/Chassis
+13243	Container size Type not match with Order size type
+13244	Pickup tally full for this Order
+13245	Pickup Empty did not received Container from Spinnaker
+13246	Decking request did not receive position from Spinnaker
+13247	Decking/Planning call not completed for another In/Out Move.
+13248	Truck License is required.
+13249	Manifest Number is required.
+13250	Trucking Company is required.
+13251	Sz/Tp Does not match entered booking. Booking is for $1. Container is of $2 sz/tp
+13252	Container is Not Located at This Terminal.
+13253	Empty should not be returned to this Terminal.
+13301	Pre-arrival information is required.
+13302	Chassis to be provided by Trucker.
+13303	No RFID tag read for this truck.
+13304	RFID on file for this license does not match RFID tag read.
+13306	$1 chassis not allowed in full.
+13307	$1 Genset not allowed in full.
+13308	$1 CU not allowed in full.
+13309	$1 chassis not allowed Dray In.
+13310	$1 Genset not allowed in Dray In.
+13311	$1 CU not allowed in Dray In.
+13312	$1 Genset not allowed in Bare Chassis In.
+13313	$1 CU not allowed in Bare Chassis In.
+13314	Equipment Nbr:($1) Service requirement: $2 has expired.
+13315	Rehandle container is not allowed for outgate.
+13316	Usage of pool equipment for line $1 has not been approved for task $2
+13317	Trucker does not have a valid appointment.
+13500	Cannot delete Line Operator while $1 exists.
+13501	No trucker's agreement exists for this line.
+13502	Line Code does not match required prefix line code.
+13503	Terminal not allowed to update data for this line.
+13504	The Line does not have access to this Pool.
+13505	Id is not unique for this line operator.
+13506	Line id is required.
+13507	Cannot enter different line than the designated line for train.
+13508	Cannot Delete the same Line as owning line $1.
+13509	Line already uses this code for another port.
+13510	You do not have same LINE as owning line $1.
+13511	Line user is not allowed to specify other line.
+13512	Container size type is different from booking/EDO size type.
+13513	Container line id is different from booking line id.
+13514	Invalid Release Document Number.
+13515	Seal Number 1 is required.
+13516	Seal Number 2 is required.
+13517	Seal Number 3 is required.
+13518	Release Document Number required.
+13519	Category is required.
+13520	The current transaction(s) have not been saved.
+13521	Do you want to cancel and clear the Truck Visit?
+13522	Truck Visit #: $1 In-Gated for $2 Gate Transactions.
+13523	Truck Visit #: $1 Completed for $2 Gate Transactions.
+13524	Chassis owned by $1, Container owned by $2
+13525	Invalid Line ID.
+13526	Gate transaction in PICK status exists for $1, more transactions are not allowed
+13527	Accessory  not in the system
+13528	WARNING, this equipment is bundled with $1. All items will be outgated upon commit..
+13529	Pending Pick up Transaction already Exists for SeaLink number
+13530	Equipment is not reserved for booking
+13531	Sealink number not found
+13532	Inactive Sealink number
+13533	Sealink Trucker not found
+13534	Inactive Sealink Trucker
+13536	Truck move not completed in Traffic Control.
+13538	SR item does not exist.
+13540	Full in not allowed for booking.
+13541	Customs Declaration for Release does not exist.
+13542	Appointment Date or Time invalid.
+13543	Appointment $1 not found.
+13544	Manifest number does not match.
+13545	Invalid Gate Transaction Status $1.
+13546	Trucker is required to have his OWN chassis for pickup, does he have one?
+13567	Live Reefer containers must stop at Reefer Station before proceeding to yard.
+13568	Missing or Invalid Appointment.  Trucker must return to Pre-Gate area to schedule an appointment.
+13569	Missing or Invalid Appointment.
+13700	Chassis entered as "OWN" at the in gate.  It must be "OWN" at the out-gate.
+13701	Accessory entered as "OWN" at the in gate.  It must be "OWN" at the out-gate.
+13702	"OWN" accessory not allowed.
+13703	Accessory is required.
+13704	MOL Accessory in not allowed. Please contact Line.
+13705	Export Service needs to be added, and fees paid.
+13706	Automatic printing by visit not allowed.
+13800	Out Gate license plate number does not match the number entered at the in gate.
+13801	Cargo is currently associated with a container in yard.
+13802	Cargo is currently in yard.
+13803	Cargo is currently associated to an export service order.
+13804	Cargo is currently associated to an import service order.
+13805	Cargo is currently associated with a Stow Planned container.
+13806	Owner does not match required prefix line.
+14000	Cannot delete Trucker Aggreement while Equipment Delete Order exists.
+14001	Cannot delete Trucker Agreement while Trucker Line Pool Access exists.
+14002	Cannot delete TRUCKERS while EQUIP_DEL_ORDERS exists.
+14003	Cannot delete TRUCKERS while TRUCKER_POOL_ACCESS exists.
+14004	Cannot delete TRUCKERS while TRUCKING_AGREEMENTS exists.
+14005	Cannot delete Trucking Agreement while SERVICE ORDER exists.
+14006	Cannot delete Trucking Companies while Delivery Order exists.
+14007	Cannot delete Trucking Companies while Service Orders exists.
+14008	Access to Pool already exists for this trucker.
+14009	Line agreement already exists for this trucker.
+14010	There are containers associated with this trucker.
+14011	Trucker override must be X or blank.
+14012	Row exists already with same Terminal ID, Trucker and Code.
+14013	Access to this Pool already exists for Trucker.
+14014	Row exists already with same Line, Terminal ID, and Trucker
+14015	Agreement with this Line already exists for Trucker.
+14016	Expiration date is earlier than today's date.
+14017	Access granted by Line to this Pool already exists for Trucker.
+14018	This RFID Number is currently registered to license plate $1.
+15000	Cannot delete Railroad Operator while Rail_Road_Car_Types exists
+15001	Cannot delete Railroad Operator while Railroad Destination exists.
+15002	Cannot delete Railroad Operator while Train Cars exist.
+15003	Cannot delete Railroad Operator while Trainss exist.
+15004	Booking item must be assigned.
+15005	Non dray in containers must have Category/Status of E/F, E/E or M/E
+15006	Dray in containers must have Category/Status of I/F or I/E
+15007	Can't delete since container is in yard.
+15008	Cannot delete since service request and invoice already exist.
+15009	Booking is not for this line.
+15010	Accept current use for Container: $1, Line: $2, Sz/Tp: $3, InYardDate: $4 ?
+15011	Booking has no items that match this Sz/Tp.
+15012	Booking items for this Sz/Tp have all reached maximum quantity.
+15013	Booking Item does not match this Sz/Tp.
+15014	Net weight can not be more than gross weight.
+15015	The Actual Departure Date Was Not Entered.
+15016	Cannot delete this train because of related container records.
+15017	Mismatch between Booking status and container status. Cannnot create railadvice.
+15018	Container has an existing rail pre-advise.
+15019	All Customs HOLD on containers must be removed before setting ATD
+15020	Cannot pre-advise, container is in the yard.
+15021	Train Closed
+15501	Vessel must be entered
+15502	$1 containers were successfully reassigned to Line $2.
+15503	A valid Vessel ID, Voy In number, Voy Out number must be specified before data can be collected or searched.
+15504	A full Re-Collect has been chosen for Vessel ID: $1 , Voy In: $2, Voy Out: $3. All Equipment data that has been Reassigned will be Overwritten!  Proceed with Re-Collect?
+15505	Vessel ID: $1, Voy In: $2, Voy Out: $3, has successfully been Re-Collected.
+15506	Data has been collected.
+15507	A Collection cannot be performed for this Vessel ID, Voy In/Out. No records exist.
+15508	"Data for both Line Sign-off User and Date must be entered in order to Finalize."
+15509	A Line ID must be selected in order to perform a reassignment.
+15510	Equipment must be selected in order to perform a reassignment.
+15511	"A valid Vessel ID, Voy In number, Voy Out number, and Line ID must be specified before data can be displayed."
+15512	"There are no Summary Records for Line ID: $1."
+15513	Error loading Line ID: $1 data.
+15514	"Vessel ID: $1 , Voy In: $2, Voy Out: $3 has not been collected yet. Please perform a Collection."
+15515	No Contract Data found for Line ID: $1.
+15516	Error $1 loading Line ID: $2 contract data.
+15517	A Vessel Summary recollect for the entire vessel is not possible because at least one Line has already been finalized.
+15518	Re-Collect Vessel Information.
+15519	Vessel/voyage has already sailed.
+15520	Cannot delete Handling Point while $1 exists.
+15521	Vessel has arrived for at least 60 days.
+15523	Vessel/voyage already exists.
+15524	2nd Handling Point does not exist.
+15525	The Line Vessel Visit has been locked - no modifications are allowed.
+15526	Voyage must equal Inbound for category of I
+15527	Voyage must equal Inbound or Outbound Voyage.
+15528	The Vessel has completed discharging.
+15529	The Vessel has departed.
+15530	Line not authorized to share this vessel visit.
+15531	Vessel/Voyage information does not match for equipment and sort group.
+15532	Vessel and inbound voyage are required.
+15533	This voyage does not exist.
+15534	Vessel not scheduled to visit terminal.
+15539	Cannot delete LINE_VESSELS while LINE_VESSEL_VISITS exists.
+15540	Cannot delete Vessels while Vessel Visit Schedule exists.
+15541	Cannot delete Vessels while Sharing Line Vessel Schedule exists.
+15544	Vessel not scheduled for this line.
+15545	Cannot update Vessels while Vessel Visit Schedule exists.
+15546	Voyage not on file.
+15547	Vessel not on file.
+15548	Internal Error, Many visits have the same Sparcs code.
+15549	Internal Error, More than one vessel with this Id.
+15550	Port IDs used by Service orders using this vessel voyage do not match with the service entered. Please update the service before using it here.
+15551	Unknown vessel service.
+15552	SPARCS code already exists in file.
+15553	Actual Departure is before Actual Arrival.
+15554	Departure is before vessel production dates!
+15555	Delete not allowed if Actual Arrival/Departure set.
+15556	Inbound and Outbound voyage must be different.
+15557	Voyage not in the Vessel Schedule.
+15558	Cannot perform collection because vessel has not departed yet.
+15559	Duplicate entries in the USER table.
+15561	You must specify a line operator.
+15566	Starting Date cannot be greater than Ending Date.
+15567	You have selected all the containers, do you wish to continue?
+15568	Vsl/Voy closed.
+15569	Please select a line first.
+15570	Please fill in all mandatory fields
+15571	Vsl/Voy has sailed
+15572	Vsl/Voy closed
+15580	Stowplan record not found for container
+15581	Stowplan entry is not allowed, container is in the yard
+15582	Stowplan record already exists for this container for another vessel/voyage
+15583	User does not have authority to view this container
+15584	Transaction complete, please update totals in TDR tab
+15585	Finalized/Billed Vessel summary exists for this visit, unable to update
+15586	All Re-handles need to be completed before continue
+15587	Vessel has not arrived
+15588	Equipment has not been released to load
+15589	No size type found
+15590	Vessel arrival must be within the last $1 days
+15591	Equipment not set for discharge
+15592	Line has locked Stowplan updates for this Vessel Visit
+15593	Vessel $1 Voyage $2/$3 has arrived on $4.
+15594	Vessel $1 Voyage $2/$3 has departed on $4.
+15595	The ETA for Vessel $1 Voyage $2/$3 has changed to $4.
+15596	The ETD for Vessel $1 Voyage $2/$3 has changed to $4.
+15597	Vessel is required.
+15598	Voyage is required.
+15599	Voyage ETA is required.
+15600	Vessel Service is required.
+15601	Vessel IMO is required.
+15602	Vessel IMO not on file.
+15603	Vessel Service not on file for Line.
+15604	Vessel not on file for IMO number.
+15605	Vessel call Action invalid.
+15606	Version not valid for Action.
+15607	ETA cannot be prior to today.
+15608	Cannot delete vessel call while $1 exists.
+15609	Cannot delete vessel call does not exist.
+15610	Cannot create vessel call already exists.
+15611	Vessel service does not match existing vessel visit.
+15612	In and Out voyage are not the same for existing vessel visit.
+15613	Vessel ETA does not match existing vessel visit.
+15614	Voyage ETD is required.
+15615	ETD cannot be prior to ETA.
+15616	Vessel ETD does not match existing vessel visit.
+15617	Cargo has no vessel/voy info.
+15618	Vessel Visit Information not found
+15619	Import Order does not match this Vessel Voyage
+15650	Nothing left to discharge from this stowplan.
+15651	This is not a cargo stowplan.
+16500	Cannot delete Country while Vessels exists.
+16501	Cannot delete COUNTRY while HANDLING_POINT exists.
+16502	Cannot delete COUNTRY while RANGE_COUNTRY_CONSTRAINT exists.
+16503	Cannot delete COUNTRY while EQUIPMENT_COUNTRY_CONSTRAINT exists.
+16504	Cannot insert Country and Port Code. Already exists in the database..
+16505	Can not parse record due to missing fields or incorrect data found in segment: $1
+16506	Outbound Rail OCR Exception Report for Train id $1 on $2
+16507	Inbound Rail OCR Exception Report for Train id $1 on $2
+16508	Container hasn't been pre-lodged in Mainsail
+16509	OCR Container number does not match the container number on the gate transaction.
+16510	A container was detected in the OCR Portal that does not have a PICK transaction.
+16511	Additional pre-lodge found for this truck visit.
+16512	No OCR container number found for the $1 transaction.
+16513	OCR Chassis number does not match the chassis number on the gate transaction.
+16514	More than one booking found for the number entered.
+16515	Multiple size/types found for the booking.
+16516	IMO hazardous mismatch.
+17001	Equipment discharge date is not set up.
+17002	Demmurage charges should start at a different time other than midnight, but the start time is not set up.
+17003	Equipment Unload date is not set up.
+17004	$1 account balance is less than amount being paid.
+17005	Company Number is not assigned for customer $1.
+17501	There are one or more service request items that have not been finalized.
+17502	Please enter an event if you have Event Search Criteria details
+17503	You may not go to the Service Request screen for a non-service request item. See invoice nbr $1
+17504	Please select only one invoice/credit note
+17505	Please select one invoice/credit note
+17506	Please select only one invoice/credit note if you want to view history
+17507	Please select one invoice/credit note if you want to view history
+17508	Please enter an invoice number or credit note/folio nbr, not both.
+17509	Please select at least one search criteria
+17510	Customer Code and Bill To Code must be entered
+17511	Customer does not have an associated contract. Please enter a contract
+17512	Internal Error.  Credit Note counter not found.  Please contact Service Center.
+17513	Internal Error.  Invoice counter not found.  Please contact Service Center.
+17514	Only draft invoices can be split.
+17515	This type of invoice cannot be split.
+17516	Add at least one tier.
+17517	$1 $2 cannot be re-printed according to business rules.
+17518	$1  $2 has the status $3. It cannot be deleted.
+17519	$1  $2 has the status $3. It cannot be finalized.
+17520	$1 $2 has the status $3. It cannot be printed/reprinted.
+17521	New folio number $2 exists for this $1.
+17522	Printer is offline, $1 $2 cannot be printed.
+17523	"$1 will not print immediately due to the DELAYED Indicator being set for the Customer. Do you wish to force it to print ?"
+17524	$1 $2 cannot be printed due to the End-of-Year Indicator being set for the Customer.
+17525	$1 $2 deleted successfully.
+17526	$1 $2  has been finalized.
+17527	$1 $2 has been cancelled.
+17528	Credit Note $1 has been queued for printing.
+17529	$1 has been reprinted successfully.
+17530	This $1 cannot be printed/reprinted as the customer is internal to the Billing system.
+17531	You cannot set Bill to Line days to $1, as there is nothing left to bill to customer.
+17532	Contract,Customer and Bill to details must be captured before invoice can be generated.
+17533	$1 has been created successfully.
+17534	Error in creating invoice items.
+17535	Error in creating invoice item components.
+17536	Error in creating invoice. $1
+17537	Are you sure you want to delete this criteria set?
+17538	Are you sure you want to make this criteria set inactive?
+17539	Check the hazardous check-box first.
+17540	Choose a contract to copy from.
+17541	New contract : $1 created successfully.
+17542	Are you sure you want to delete this contract?
+17543	You must save the contract first.
+17544	Only one tier is allowed for rate type SINGLE.
+17545	Tier to must be greater than tier from.
+17546	Contract rate effective dates are different than the contract effective dates. Are you sure?
+17547	You must enter at least one criteria set.
+17548	Rule effective dates are different than contract effective dates. Are you sure?
+17549	This criteria set/rule is in use by an invoice item. Are you sure you want to proceed?
+17550	No start event should be defined if you want to set start other.
+17551	No end event should be defined if you want to set end other.
+17552	Start other must be empty if you want to set start events.
+17553	End other must be empty if you want to set end events.
+17554	Time schedule for $1 must begin with 00:00.
+17555	"From time" for day $1 ($2) must follow previous record's "To time" ($3).
+17556	Last "To time" for day $1 must be 23:59.
+17557	Terminal service may not be set to inactive since open service requests exist: $1 $2 $3
+17558	Terminal service may not be set to inactive since draft invoices exist: $1 $2 $3
+17559	Criteria set may not be set to inactive since draft invoices exist.
+17560	Contract start date must be before end date.
+17561	Public contract $1 already exists.
+17562	Contracts with draft invoices may not be set to inactive.
+17563	You cannot copy to an existing contract.
+17564	Rate start date must be before end date.
+17565	Rate effective dates must not be outside of contract effective dates: $1 - $2.
+17566	Rate effective dates must not overlap other existing rate effective dates: $1 - $2.
+17567	Tier range must not overlap other existing tier range: $1 - $2.
+17568	Rule start date must be before end date.
+17569	Rule effective dates must not be outside of contract effective dates: $1 - $2.
+17570	Rule effective dates must not overlap other existing rule effective dates: $1 - $2.
+17571	Only one time schedule may be used on vessel invoice.
+17572	Your default language is $1. So, you must enter a $1 description too.
+17573	Description in AMERICAN language must be added.
+17574	An invoice has already been created for the selected rows. No changes are allowed unless the invoice is deleted/cancelled.
+17575	Please enter Bill to Line days for container $1.
+17576	This vessel has not sailed yet. Select a different vessel/voyage.
+17577	No rate exists for Criteria set $1 and Contract $2 for the date $3.
+17578	No rate tier exists for Criteria set $1, Contract $2 and Quantity $3.
+17579	All rate tiers do not exist for Criteria set $1, Contract $2 and Quantity $3.
+17580	"This Invoice Item has already been credited."
+17581	You can either enter Time Schedule or Apply Day Calculation Rules, not both.
+17582	Are you sure you want to make this contract inactive?
+17583	The record is locked by another session. Please try again later.
+17584	Line $1 is already associated to customer $2, hence cannot be associated to this customer.
+17585	"This short name is already in use by active service $1; please enter a different short name."
+17586	No matching Invoices found.
+17587	No matching Credit Notes found.
+17588	All the selected items must be on the same vessel/voyage $1/$2.
+17589	Criteria Set not defined for terminal service $1 and $2.
+17590	Criteria Set not defined for terminal service $1 and Cargo $2.
+17591	Days Calculation Rules are not defined for Contract $1 and Criteria Set $2.
+17592	Contract Rates are not defined for Contract $1 and Criteria Set $2.
+17593	No effective tax rate exists for Criteria Set $1 for $2. 
+17594	Cannot create Vessel Invoice for $1. Vessel Summary is not finalized.
+17595	You cannot change credit to, since contract $1 is not valid for $2.
+17596	This action is not allowed since Terminal Service is inactive.
+17597	You cannot select container $1, as it was on demurrage for 0 days.
+17598	Terminal service $1 cannot be deleted since it is being used by one or more Criteria Sets.
+17599	Terminal service $1 cannot be deleted since it is being used by one or more Terminal Events.
+17600	Terminal service $1 cannot be deleted since it is in use on one or more open service requests.
+17601	You cannot mark $1 as a reefer service, since terminal service $2 is already marked as a reefer service.
+17602	You cannot mark $1 as a demurrage service, since terminal service $2 is already marked as a demurrage service.
+17603	No Vessel Summary data found for $1.
+17604	Vessel Invoice(s) for $1 have already been generated.
+17605	Line $1 is not associated to any Billing Customer.
+17606	Quantity provided for Criteria Set $1 and Contract $2 is 0!
+17607	Quantity provided for Contract $2 and Criteria Set $1, but UOM not specified on Contract Rate.
+17608	UOM specified for Contract $2 and Criteria Set $1, but no Quantity provided.
+17609	Time provided for Contract $2 and Criteria Set $1, but Time UOM not specified on Contract Rate.
+17610	Time UOM specified for Contract $2 and Criteria Set $1, but no Time provided.
+17611	At least one out of UOM or Time UOM must be entered
+17612	Criteria Set is not valid for the selected container.
+17613	Please select what the service is for.
+17614	BL/Cargo Ref UOM $1 does not match with this UOM. You cannot select this Cargo Item.
+17615	Please select at least one item, or press Cancel.
+17616	Time entered does not match the from and to dates. Is that OK?
+17617	Criteria Set allows for invoice summarization. Would you like to summarize the invoice items for the containers selected?
+17618	No exchange rate found for converting $1 to $2
+17619	Service $1 for Container $2 already exists with invoice $3.
+17620	Service $1 for Container $2 already exists, but is not billed.
+17621	Credit Note cannot be created for Internal Invoice $1.
+17622	Service $1 for Cargo Item $2 already exists with invoice $3.
+17623	Service $1 for  Cargo Item $2 already exists, but is not billed.
+17624	This customer does not have a currency code defined. Please select a different customer.
+17625	AS400 interface could not rename file $1.
+17626	Draft Split Invoice number $1 was successfully created. Do you want to finalize it now?
+17627	Either the "Split From" or "Split To" date must be same as original item.
+17628	Vessel Summary has not been signed off yet.
+17629	Contract selected on Vessel Summary Special services ($1) is different than contract picked for the Vessel Invoice ($2)
+17630	No performed date found on auto-triggered service $1 for $2.
+17631	Item amount for $1 is 0.
+17632	Manual Invoice $1 not found.
+17633	Service $1 is marked as time-related.
+17634	No performed date found for service $1 and container $2.
+17635	You cannot select container $1, as there are no billable days.
+17636	0 days calculated since this Criteria Set is not chargeable for the Customer's Contract.
+17637	You have not selected any containers for this item ($1). Do you want to split it completely to this invoice?
+17638	Service Type should be R(eefer)/D(emurrage)
+17639	Reefer service does not exist for Component type $2. Use BIL001 to mark one service as a reefer service.
+17640	Demurrage service does not exist for Component type $2. t. Use BIL001 to mark one service as a demurrage service.
+17641	Could not calculate start date for Contract $1, Criteria Set $2 and $3.
+17642	Could not calculate end date for Contract $1, Criteria Set $2 and $3.
+17643	Could not calculate billable days for Contract $1, Criteria Set $2 and $3.
+17644	Cannot split all items to the new invoice. Original invoice should be left with at least one item.
+17645	No public contract exists.
+17646	Pickup Date $1 is before Service Start Date $2.
+17647	You cannot set Range to be Based on UOM when no UOM is present.
+17648	You cannot set Range to be Based on Time UOM when no Time UOM is present.
+17649	Too many valid public contracts present.
+17650	Do you want the vessel invoice to be separated by tax type?
+17651	Creation of Vessel Invoice may take a few minutes.
+17652	Calculation of Vessel Invoice may take a few minutes.
+17653	Cannot detemine demurrage service, since no component type is defined for service on service request item.
+17654	Container information not found for service with component type of Container.
+17655	Cargo information not found for service with component type of Breakbulk.
+17656	No matching Criteria Set found for the Container.
+17657	Invoice cannot be printed as there are too many items to print on one page.
+17658	UOM $1 on contract rate ($3) does not match with UOM $2.
+17659	UOM $1 cannot be converted to $2.
+17660	Could not calculate start date for $1.
+17661	Could not calculate end date for $1.
+17662	Service Start Date $1 is greater than Service End date $2.
+17663	You cannot select this container since there is no commodity weight defined for it.
+17664	You cannot select this container since there is no commodity weight UOM defined for it.
+17665	Invoice cannot be created without items. Please add items using action list.
+17666	No Billing mode defined for Container $1.
+17667	Please select a printer.
+17668	Cannot delete all Invoice Items.
+17669	There should be at least one day on the split item.
+17670	$1 $2 has already been paid and cannot be reprinted.
+17671	$1 $2 was printed in a previous month and cannot be cancelled.
+17672	$1 $2 was printed in a previous month and cannot be reprinted.
+17673	Invoice $1 has already been printed. To re-print, please use form BIL101.
+17674	Credit Note $1 has already been printed. To re-print, please use form BIL140.
+17675	Criteria Set $1 already exists for Terminal Service $2 and Search Order $3.
+17676	Criteria Set $1 is being used. It cannot be deleted.
+17677	Invoice cannot be created since there are no billable items.
+17678	Only the last time range can have a "Time To" of 23:59.
+17679	The total time for day $1 must be 24 hours.
+17680	You cannot create a new credit note without a previous invoice. Enter an invoice number and press search.
+17681	Contract, Customer, Credit to and at least one Criteria Set must be entered before Credit Note can be generated.
+17682	All of your changes will be lost. Is that OK?
+17683	Split From and Split To dates must be between From and To dates.
+17684	This contract is in use. It cannot be deleted.
+17685	No items selected for creating a Split Invoice.
+17686	Cannot split item as the original item will be left with no billable days.
+17687	No Effective Days Calculation rules defined at terminal level or for public contract.
+17688	Range Based On must be specified for $1 rate type.
+17689	Range Based On cannot be specified for $1 rate type.
+17690	Unbilled period $2 detected for $1.  Manual correction required.
+17691	Are you sure you want to Cancel $1 $2?
+17692	Are you sure you want to Finalize $1 $2?
+17693	The balance for account, $1 - $2, is below $3.
+17694	The current account balance is: $1.
+17695	Contact the Billing Department to add funds to your account.
+17696	Account Balance Notification.
+17701	No use information found for equipment $1.
+17702	Cannot open invoice since this container has Multiple invoices created.
+17703	Expire date should not be in the past.
+17704	SR has already been billed on invoice $1. Do you still want to rebill?
+17705	Invoice $2 has been rebilled successully as $3; Credit Note $1 has been created.
+17706	Are you sure you want to Rebill Invoice $1?
+17707	Invoice $1 has been rebilled successully as $2.
+17708	New bill to must have same currency, contract and billing mode as $1.
+17709	This customer account does not exist or it is not OPEN.
+17710	Split not allowed due to different tier structures.
+17711	Weight Summarization is only valid for Breakbulk service.
+17712	Customer $1 associated to this line does not have a currency code defined.
+17713	Please add another search criteria or enter a date range from - to
+17714	Rate type for range $1 is different than the one for range $2 criteria set $3
+17715	Non finalized split invoices exists for this service request, Service not ordered
+17716	Credit range must be entered
+17717	Credit range must be at the begining or end of the billed period
+17718	Credit range must not be before the billed period
+17719	Credit range must not be after billed period
+17720	Credit start date must be lower than end date
+17721	Credit item is not time ralated
+17722	Invoice $1 has been queued for printing.
+17723	Invoice $1 has not been printed yet, so it can not be credited.
+17724	$1 is not a valid Invoice.
+17725	Line Status must be different than Port Status.
+17726	Only one entry allowed for Line 'ALL'.
+17727	Cannot set specific Line and Line 'ALL'.
+17728	Cannot delete this customer as it has been used on an Invoice.
+17729	Cannot delete this customer as it has been used on a Service Request.
+17730	Deletion of customers is not allowed.
+17731	Adjustment Amount ($$1) was more than amount due, so only the amount due was adjusted.
+17732	No transaction was created, as there was no amount due.
+17733	Date range selected is outside of demurrage period.  No update occurred.
+17734	Period being waived is outside of demurrage period. Only $1 day/s waived.
+17735	This service is not billable.
+17736	Amount cannot exceed Amount Due.
+17737	Adjustment Amount cannot set Amount Due less than zero.
+17738	No Results have been selected.  Action not allowed.
+17739	Weight is not available for cargo $1.
+17740	This service already exists.
+17741	There was no amount due for this service.
+17742	Invoice $1 has been submitted for e-billing.
+17743	Credit Note $1 has been submitted for e-billing.
+17744	No more folio numbers are available in the ranges defined. Last folio number = $1.
+17745	To Folio Number must be greater than From Folio Number.
+17746	$1 is not a valid Year.
+17747	Next folio number must be higher than earlier folio number $1.
+17748	This range coincides with another existing range ($1).
+17749	This folio number does not belong to any range. Please select a different folio number.
+17750	FROM DATE precedes first demurrage day for one or more containers. Date range adjusted accordingly.
+17751	Other transactions exist for service $1 and container $2. Please delete them first.
+17752	Error encountered when getting Demurrage values. Please advise customer service to check error log.
+17753	No Container Use found for parameters passed.
+17754	Cannot search by Container and TIN; use only one.
+17755	Wild-card search not allowed.
+17756	Please select a Container Use.
+17757	Container Number, Cargo ID or TIN is required.
+17758	A valid Billing customer (with currency code) needs to be defined for $1 $2.
+17759	Error encountered when trying to save transaction. Please advise customer service to check error log.
+17760	NOTE: Deleted transactions were not selected.
+17761	Cannot select; TIN is already deleted.
+17762	No billable charge/s found. No transaction was created.
+17763	This payment type is currently being used by some invoice/s. It cannot be deleted.
+17764	Only one active payment type can be marked as Customer Account. Please select only one.
+17765	No contract is associated with Customer $1.
+17766	This is the first error encountered.  Others may exist.  Please investigate and rerun report.
+17767	Threshold Time and Applies to must both either be specified or left blank.
+17768	There are $1 Containers that were not selected; Criteria Set not valid.
+17769	Billing Company default already exists; $1.
+17770	There may be only two Active Billing Companies.
+17771	Profit Center is required for Billing Companies.
+17772	Invoice Copies must be at least 1.
+17773	Invoice $1 has been printed successfully.
+17774	Comma delimited containers are not acceptable, containers must be separated by a carriage return.
+17775	This service requires an equipment constraint.
+17776	Invoice $1 has been queued for printing and e-billing.
+17777	Credit Note $1 has been queued for printing and e-billing.
+17778	A unique Accounting number is required.
+17779	A Billing customer already exists for $1 $2.
+17780	Billing customer $1 was successfully created.
+17781	Container $1 has already been satisfied until $2.
+17782	TIN $1 cannot be deleted as other transactions exist that extend the LFD beyond $2.
+17783	Terminal Service not found for DTN $1.
+17784	Cannot delete this customer as it has been used on an Equipment Use.
+17785	Cannot delete this customer as it has been used on an contract.
+17786	At least one Invoice ($1) exists for this Vessel Summary. Would you like to delete this and any other such vessel invoices?
+17787	Cannot process, no selected Results have a Guarantor.
+17788	Deletion of older Vessel Invoice/s may take a few minutes.
+17789	"Could not ftp file $1 to $2.$3"
+17790	Invoice printing has been disabled for this Bill To Customer. Please contact the Service Counter.
+17791	All items that need to be credited should be selected and have a proper credit amount.
+17792	No new items were selected to credit. Credit Memo not created.
+17793	Enter a non-zero amount less than item amount.
+17794	A negative rate is only allowed for discount type of Criteria Sets.
+17795	You cannot credit an item whose revenue code ($1) has been discounted.
+17796	You must enter a Facility Type.
+17797	Cannot delete customer $1 as it has been used on a Service Order.
+17798	Cannot delete customer $1 as it has been used on a Cargo item.
+17799	Customer for line $1 is associated with multiple contracts.
+17800	Cannot delete, as a Billing customer exists for $1 $2.
+17801	Please enter a code, name and valid Company type first.
+17802	This Tax Id has already been used for customer $1.
+17803	From and To currencies must be different.
+17804	Effective date cannot be in the past.
+17805	Multiple Owners selected, can't create invoice for separate Using Lines.
+17806	Unable to process becasue equse $1 has been deleted.
+17807	YOU MUST ENTER A Purpose.
+17808	Cannot delete Tax Type $1 when matching detail records exist in $2.
+17809	Invalid FormType for Approval
+17810	Accounting Status must be Null to Approve
+17811	Invoice Total must be Non-Zero to Approve
+17812	Invoice is already Approved
+17813	You cannot delete a transaction for an Added Service.
+17814	SR has already been billed on invoice $1.
+17820	No Pre-Advise Transaction found for Drop Container $1
+17821	Door Direction is incorrect. Container must be flipped.
+17822	Split of this Invoice Item is not allowed.
+17823	Invoice Status must be 'CREATED' for updates.
+17999	Evaluate Existing Services length has been exceeded.
+18001	Please select records with similar Service Types.   
+18002	Select at least one detail line prior to pressing Go.  
+18003	Invalid Service Request $1.
+18004	Invalid Service Request Item $1.
+18005	Error in creating service request.
+18006	Error in creating service request item.
+18007	A Service Request cannot be saved without any Service Request items.
+18008	Date required cannot be earlier than today.
+18009	Configuration for this terminal service is not done.
+18010	This item cannot be selected. Container has not been released by customs.
+18011	This item cannot be selected. Billing mode is not set for container.
+18012	This item cannot be selected. Booking number is not found.
+18013	This item cannot be selected. Container status is not $1.
+18014	This terminal service cannot be applied multiple times to the same item.
+18015	This item cannot be selected. Cargo has not been released by customs.
+18016	This item cannot be selected. $1 does not match the set up for this terminal service.
+18017	This SR item is confirmed. Edit/Cancel/Delete is not allowed on this SR item.
+18018	This SR item is invoiced. Edit/Delete is not allowed on this SR item.
+18019	This service type does not allow BL item with Multiple containers. Please split the BL item so that each item is associated with only 1 container.
+18020	There are no items left in the Service Request. The Service Request will be deleted.
+18021	Error in updating service request item.
+18022	Error in deleting service request item.
+18023	Error in cancelling service request item.
+18024	Unselect the earlier selection before doing another Search.
+18025	One or more items did not meet validation requirements and cannot be selected for this service.
+18026	''Apply New Service'' cannot be used for this service type. Please use the ''Add Service'' process.
+18027	Missing 1 internal service_request.  Application Pre-req.
+18028	The required date cannot be more than $1 days away from today.
+18029	Error in deleting Service Request.
+18030	Invalid Terminal Service $1.
+18031	This SR item is not in 'Ordered' status. Cancel action is allowed only for Ordered Items. Please use Delete instead.
+18032	Please enter a Service Request number prior to searching.
+18033	Please put the form in Search Mode prior to executing a search.
+18034	The equipment number you entered is not a container.  Please enter a different number.
+18035	Declared and actual quantities must be greater than 1 prior to splitting cargo.  Weights must not be zero.
+18036	Split declared quantity must be less than current declared quantity of $1
+18037	Split actual quantity must be less than current actual quantity of $1
+18038	Split declared weight must be less than current declared weight of $1
+18039	Split net weight must be less than current net weight of $1
+18040	Error in updating outbound train in equipment uses.
+18041	One for more items are not Ordered.  Items must have a status of ''O'' prior to assignment of outbound train.
+18042	One for more items do not have a deprature mode of ''R''.  Items must have a departure mode of Rail prior to assignment of outbound train.
+18043	One for more items have not been released by Customs.  Items must have be released by Customs prior to assignment of outbound train.
+18044	One for more items have pending charges.  Pending charges may not exist when assigning of outbound train.
+18045	No gate pass lanes have been set up.  Please set up a gate pass lane and printer.
+18046	There is no pre-gate task set up for the service.  Please set up a pre-gate task prior to generating pre-gate transactions.
+18047	One for more items are not Ordered.  Items must have a status of ''O'' prior to generating pre-gate transactions.
+18048	This item cannot be selected. There are equipment constraints in place.
+18049	This item cannot be selected. There are cargo constraints in place.
+18050	$1 has pending service requests
+18051	Searching by Container/All Uses is only enabled for Container type of services.
+18052	Maximun number reached for this service, please change the required date
+18053	Date required cannot be earlier than SR First Day on Vessel call ($1/$2).
+18054	Cannot bill Service Request. Please contact the Service Counter.
+18055	Cannot delete Invoice. Please contact the Service Counter.
+18056	Cannot finalize Invoice. Please contact the Service Counter.
+18057	This item cannot be selected. Container has not been released by the line.
+18058	This item cannot be selected. EDO number is not found.
+18059	Invalid Service Type.
+18060	Service Type is required.
+18061	Service Type has not been set up in Mainsail.
+18062	Order Number is required.
+18063	Version reference is required.
+18064	This order already exists.
+18065	A valid customer code is required.
+18066	There are no containers in this message.
+18067	This order doesn't exist in Mainsail.
+18068	Container Size/Type is required.
+18069	A valid agent Id is required.
+18070	Container number should be specified when status is full
+18071	Port of Origin is invalid.
+18072	Port of loading is invalid.
+18073	Final destination is invalid.
+18074	Invalid IMDG class.
+18075	Sealing must be specified as 1 or 0
+18076	Container Condition must be OK or OS.
+18077	Invalid Container number.
+18078	Container Condition does not match with damage details.
+18079	Status mismatched with current use.
+18080	Temperature mismatched with current use.
+18081	Hazard mismatched with current use.
+18082	Size/type mismatched with current use.
+18083	Booking number mismatch with current use.
+18084	Line mismatched with current use.
+18085	Vessel mismatched with current use.
+18086	Voyage mismatched with current use.
+18087	Agent mismatched with current use.
+18088	Customer mismatched with current use.
+18089	Some items of this order have already been performed.
+18090	Problem sending message to TinO.
+18091	No B/L number specified for cargo
+18092	Vessel departed.
+18093	Vessel update is closed for line.
+18094	Invalid order number for TCFS/FCFS.
+18095	Unable to process ORDR with FCFS type because no previous TCFS exists for order number
+18096	Service Request cannot be created, Gate Transaction exists.
+18097	Service Request cannot be created, Gate Transaction status not allowed.
+18098	$1 is not permitted without an existing service with a status of Ordered or Done.
+18501	Confirmation for this type of service order has not been set up in the database
+18502	Select a single detail line prior to adding Marks/Labels
+18503	There is no cargo associated with this Service Order Item.  Marks may not be entered or printed
+18504	Service Request Item(s) reverted to Ordered successfully.
+18505	One or more Service Request Items were not reverted to Ordered.  To change the status to Ordered, the current status of the item must be Done.
+18506	One or more Service Request Items were not reverted to Not Performed.  To change the status to Not Performed, the current status if the item must be Ordered.
+18507	Service Request Item(s) reverted to Not Performed successfully.
+18508	Cannot delete, position has cargo.
+18509	Cannot delete, position has gate transactions.
+18510	Cannot delete, position has equipment.
+18511	Only service request items with an Ordered status may be confirmed.
+18512	Location data must be entered prior to confirming this Service Request.
+18513	Gate data must be entered prior to confirming this Service Request.
+18514	Enter the Visit ID /Service Request Number
+18515	Actual Quantity is required
+18516	Actual Weight is required
+18517	Cannot enter a negative value
+18518	Cannot Confirm the Truck/Rail visit.There are constraints attached to Declaration Nbr: $1
+18520	Location of $1 is invalid for service type.
+18521	Move of equipment $1 is not complete.
+18522	Equipment $1 has been released to load - can't add to SR.
+18523	Duplicate assignment - $1 exists on a SR that is not completed.
+18524	Gate transaction for equipment $1 is not complete.
+18525	Cargo $1 has active constraints.
+18526	Invalid or incomplete $1 equipment data.
+18527	Service Request Item(s) approved successfully.
+18528	One or more Service Request Items not approved successfully.
+18529	One or more Service request Items were not reverted to pending.
+18530	Service Request Item(s) reverted to pending successfully.
+18531	One or more Service request Items Status not changed to Hold.
+18532	Service Request Item(s) status changed to Hold successfully.
+18533	One or more Service request Items Status not changed to Cancel.
+18534	Service Request Item(s) status changed to Cancel successfully.
+18535	CFS Workgroup Requests cannot be confirmed here.
+18536	Customs must be cleared for the Declaration Nbr: $1
+18537	Only service request items with an Ordered or Moved status may be confirmed.
+18538	Move must be complete before service request may be confirmed.
+18539	This action is only relevant for CFS Workgroup Requests.
+18540	One or more CFS Dock receipts were not printed.
+18541	CFS Dock receipt printed successfully.
+18542	Actual quantity entered ($1) is greated than quantity available ($2) for Declaration $3.
+18543	Actual weight entered ($1) is greated than weight available ($2) for Declaration $3.
+18544	You are updating a transaction that has already been completed.  Do you want to continue?
+18545	Adjusted amount will result in available amount < 0.
+18546	Please select fewer records.
+18547	Please use different "from" and "to" containers.
+18548	You cannot delete history that is billable.
+18549	You cannot delete this BOL item.  Service-specific history exists.
+18550	Please enter Search Mode prior to searching.
+18551	No Access to one or more B/L - Terminating
+18552	Devan is not allowed because there is a constraint on the container.
+18553	Equipment Use records are required for VAN, DEVAN, and TRANLOAD activity.
+18554	Attached cargo exists.  Override will load all attached cargo items.
+18555	Unable to process ORDR type TCFS because a yard move is already active to/from the CFS block.
+18556	Unable to process ORDR type TCFS because this move is inconsistent with a previous yard move to/from the CFS block.
+18557	Unable to process ORDR type FCFS because a yard move is already active to/from the CFS block.
+18558	Unable to process ORDR type FCFS because this move is inconsistent with a previous yard move to/from the CFS block.
+18559	Requesting $1 in addition to the $2 already scheduled services will exceed the $3 max allowed
+18560	Cannot divide, cargo has no positions
+18561	Cargo has no positions
+19001	From Date must be less than To Date
+19002	$1 must be entered
+19003	Please select at least one $1
+19004	Please select only one $1
+19005	This feature is under construction.
+19006	From date must be entered.
+19007	Action must be entered.
+19008	Please select records first.
+19009	Start Date must be less than End Date.
+19010	Are you sure you want to delete $1 $2?
+19011	Are you sure you want to cancel $1 $2?
+19012	Cannot delete Printers while $1 exists.
+19013	Cannot delete Positions while $1 exists.
+19014	Cannot delete Terminals while $1 exists.
+19015	$1 does not exist in USERS table.
+19016	Search criteria returns no results. Try again.
+19017	$1 must be entered first.
+19018	Insert of CRT PRINTERS must be in context of CRTS.
+19019	This Printer has already been listed for this CRT.
+19020	Query of CRT PRINTERS must be in context of CRTS.
+19021	Cannot delete Computer Terminals (CRT) while Users exist.
+19022	The password must be at least 4 characters long.
+19023	The password cannot be the same as the UserName. Please try another password.
+19024	The passwords you entered do not match. Please enter them again.
+19025	$1 should be less than or equal to System Date.
+19026	Do you want to exit Mainsail Application?
+19027	Enter a search string first.
+19028	Search String $1 is not found.
+19029	Deprecated module $1 was called.
+19030	Customer Type is invalid, or cannot be determined.
+19031	Access is denied.
+19101	Fetching all the records, please be patient!
+19102	Report Output is going to be sent to the printer($1).
+19103	$1 records would be exported
+19104	Exporting: $1 of $2 records exported...
+19105	Export Completed!
+19106	Report Server is not defined. Please Contact Administrator
+19107	Please close any open forms before proceeding
+19108	Module $1 has no changes to save
+19109	Timeout! Please Close Browser Window and Reconnect
+19110	Would you like to send the output to printer: $1 ?
+19111	To Date can not be less than From Date.
+19112	This functionality is currently unavailable in the Firefox browser. Please use Internet Explorer.
+19113	You cannot delete a transaction for an Extended Last Free Day.
+19114	You cannot delete a transaction created in Forecast.
+19115	You cannot delete a transaction that has been sent.
+19116	There are billing transactions associated with this customer. This field cannot be updated.
+19117	Selected currency conflicts with the currency for the billing ID $1.
+19118	Billing ID $1 already exists, hence cannot change to this billing customer.
+19119	Error: An Event you selected is already in use. Please select another Event.
+19200	Default billing company $1 is inactive
+19201	More than one active default billing company exists
+19202	There is no default Billing Company
+19203	Charge does not exist for Customer Account.
+19204	Charge $1 does not exist for Customer Account.
+19205	$1 account balance of $2 is less than amount being paid - $3.
+19206	Invoice range Start and End Numbers required.
+19207	Invoice range End must be greater than Invoice range Start.
+19208	Approval Reference is required.
+19209	Expiration Date is required.
+19210	Active is required.
+19211	Active must be YES or NO.
+19212	Expiration Date must be greater than the Active range Expiration Date $1.
+19213	Expiration Date must be equal or greater than current date.
+19214	Current Folio Number not set.
+19215	New Invoice range cannot include current Folio Number $1.
+19216	Invoice range cannot include current Folio Number $1.
+19217	Current range would exclude existing Invoices, please expand range or create new range.
+19218	Next Invoice number is not within the active Invoice range.
+19219	Next Invoice Number is within an expired range.
+19220	Next Invoice Number not within authorized range.
+19221	No Active Invoice Number range found.
+19222	Another range is currently active.
+19223	Next Invoice Number is beyond range end.
+19224	Do you want to send the Invoice by Email?
+19225	Invoice $1 was not sent, missing Email Address for customer.
+19226	Invoice $1 was sent by Email.
+19227	Do you want to send the Credit Note by Email?
+19228	Credit Note $1 was not sent, missing Email Address for customer.
+19229	Credit Note $1 was sent by Email.
+19230	No valid appointment exists, user must create an appointment.
+19231	Equipment must have same appointment date.
+19232	Line Rep: $1 signed off and finalized Line: $2 on $3
+19233	At least one other $1 exists for this date range.
+19234	At least one other $1 exists for this equipment.
+19235	Criteria Set must be entered
+19236	Invalid Criteria Set
+19237	Invalid Contract Rate
+19238	Quantity must be entered
+19239	Time must be entered
+19240	Bill From Date must be entered
+19241	Bill To Date must be entered
+19242	Invoice gkey must be entered
+19243	Item gkey must be entered
+19244	$1 of $2 Items excluded due to errors
+19245	Create Invoice function has failed
+19246	Invalid for Equipment item for Export Demurrage Invoice
+19247	Invalid for Equipment item for Export Reefer Invoice
+19248	Inbound Voyage Number must be entered
+19249	Outbound Voyage Number must be entered
+20000	Document number entered does not match the format for the release type.  The document format for this type of release is $1.
+20001	Customs must be cleared, inbound, exam, or p/t before release number is assigned.
+20002	Freight cashier must be paid first.
+20003	Trucker must be assigned before release number is assigned.
+20004	Customs must be cleared, inbond, exam, p/t, p/t/pgo or inbond/pgo before release number is assigned.
+20005	Constraints exist for this equipment.
+20006	Trucker, Freight Cashier, and Customs must be entered before release number.
+20007	Category validation failed. All Containers/Cargos must have $1 Category.
+20008	Status validation failed. All Containers/Cargos must have $1 status.
+20009	Weight validation failed. Weight in the Release Document ($1) should be same as the sum of weight of Containers/Cargo ($2) in the Detail Block.
+20010	Special Yard validation failed. All containers must have Special Yard set to $1.
+20011	Container/Cargo In Yard validation failed. All containers/cargo must have Container/Cargo In Yard set to $1.
+20012	Transship validation failed. Allowed values are $1.
+20013	No Initial value defined for the Customs ID.
+20014	Error Calculating Total Weight. Units of Measurement for all of  the Containers/Cargos should be same.
+20015	You may not change the Release Type once it is has been selected.  Please remove this record, or continue using this Release Type.
+20016	Customer Broker Status validation failed. Custom Broker entered should have Open status.
+20017	Document Type validation failed. Valid document type values are $1.
+20018	Please enter the release type first.
+20019	Departure Mode validation failed. Valid departure mode values are $1.
+20020	Release Date is a required field.
+20021	Duplicate Document Number.
+20022	The Container has already got the commodity weight defined for it.
+20023	Some of the Containers selected has got the commodity weights defined for them.
+20024	You cannot create records here.
+20025	This action is not allowed for this release type.
+20026	Equipment has not been released. Special yard move not allowed.
+20027	NII EXAM ORDERED
+20028	Customs license does not match license number in document number.
+20029	Shipping line does not match line in document number.
+20030	You cannot create a release document without release document items.
+20031	Additional items may not be added onto this release type.
+20032	A new equipment use will be created for equipment $1.
+20033	Duplicate Document Number  $1
+20038	CBP AG INSPECTION
+20039	CBP AG CONDITION OF ENTRY FUMIGATION
+20040	SHIPPING DOCUMENTS REQUIRED
+20041	CBP AG TAILGATE INSPECTION
+20042	CBP AG FULL DEVAN AT CES
+20043	CBP TAILGATE
+20044	CBP FULL DEVAN AT CES
+20045	CBP TRADE ENFORCEMENT - CBP CONTROLLED DRAYAGE REQUIRED
+20046	CBP TRADE COMPLIANCE - BROKER OPTION FOR DRAYAGE
+20047	HOLD CONSTRAINT
+20048	Release Pin cannot be updated.
+20049	Release Pins cannot be sent for line $1 - a valid email ID has not been assigned.
+20050	$1 Containers Release PINS List ($2/$3)
+20051	Please ensure you have updated Customs status, set line's release, and assigned haulier via Mainsail Online BEFORE dispatching haulier.
+20052	Please do not reply to this email as this is an unmonitored email account.
+20053	No release pins found for the given Vessel/Voyage and Line.
+20054	Release Pins emailed to the line.
+20055	Release PIN does not match.
+20056	Release Number already exists for another vessel/voyage.
+20057	More than one record found for this release number.
+20499	Multiple items with same Sz/Type exists for the Service Order.
+20500	More than 1 row found for $1
+20501	Weight of hazardous item in $1, must be in range of $2 to $3
+20502	Working...
+20503	Weight must be between $1 and $2 $3.
+20504	List of Values available
+20505	Deleting $1
+20506	$1 does not exist.
+20509	Duplicate $1 not allowed.
+20510	Emodal ID not found.  Please contact www.emodal.com.
+20511	Feature already exists for this $1.
+20512	Query of $1 must be in context of $2.
+20513	Overwrite existing $1 ?
+20514	Insert of $1 must be in context of $2
+20515	Maximum temp must be greater than minimum temp.
+20516	Data already exists with the same $1.
+20517	Unable to update $1.
+20518	Start Date must be a Sunday.
+20519	At first record.
+20520	$1 and $2 are required.
+20521	$1 or $2 are required.
+20522	$1 successfully completed.
+20523	Do you want to continue?
+20524	Do you want to delete $1?
+20525	Auto-Query mode Off.
+20526	$1 must be numeric.
+20527	Error occurred in $1
+20528	You are not authorized to add, change or delete this constraint.
+20529	You are not authorized to change a constraint.
+20530	Please specify R for Roll, S for Split or a combination of both.
+20531	$1 missing for $2.
+20532	Multiple items with same Sz/Type exists for the Service Order.  Choose one from the list.
+20533	Split Error: Invalid Booking/VEPO Number.
+20534	Split Error: New Booking/VEPO cannot be the same as Current Booking/VEPO
+20535	Split Error: New Booking/VEPO is required.
+20536	Split Error: New Vessel Empty Reposition is required.
+20537	No Items exist for this $1.
+20538	No Data Entered.
+20539	This date can only be cleared and not changed.
+20540	Total weight of the container and its cargo in $1.
+20541	Wild card is only allowed for the last character.
+20542	Too many $1 found.
+20543	Trucking Agreement must exist with Line before Pool access is granted.
+20544	Unsaved changes exist. Please Save or Re-Query.
+20545	VEPO already exists with same Number, Line, Vessel, Outbound Voyage.
+20546	$1 Not Found.
+20547	$1 found for $2.
+20548	$1 already exists.
+20549	$1 already exists with this $2.
+20550	No Values Specified.
+20551	Please select an item first.
+20552	$1 is out of range $2.
+20553	$1 should be a natural number.
+20554	Required information is missing. Check screen data.
+20555	Record must be entered or deleted first.
+20556	$1 not allowed for $2.
+20557	$1 does not exist in $2.
+20558	$1 must be for $2.
+20559	$1 not valid if $2.
+20560	Parameter $1 was not set.
+20561	$1 must be empty for $2.
+20562	$1 must be empty.
+20563	Menu function disabled in this context.
+20564	Reserved equipment exists for this $1.
+20565	Vent setting of $1 must be between $2 and $3.
+20566	Vent setting of $1 must be in range of $2.
+20567	Do you want to save the changes you have made?
+20568	Vent setting in $1.
+20569	Problem with insert to ocr_readings for optimizer.
+20570	You must specify a size/type if genset or cooling unit is required.
+20571	You must specify a source for hazardous information.
+20572	You must specify an owner type PRE or USE for hazardous information.
+20573	You must specify either genset or cooling unit, not both.
+20574	Freight Cashier must be P, H, or R.
+20575	Freight cashier exists.  Are you sure you want to update?
+20576	This $1 does not exist.
+20577	This Reference Number not found in the IMO or CFR Guide.
+20578	UN NUMBER and PAGE does not match this entry in the IMDG Guide.
+20579	EMS does not match this entry in the IMDG Guide.
+20580	Flash point does not match this entry in the IMDG Guide.
+20581	No decimals allowed for weights in $1.
+20582	No update values specified.
+20583	Location is required if no dray status.
+20584	This Discharge Port is not in the rotation for this service.
+20585	Height not allowed for class of $1.
+20586	More than one existing row with same key value.
+20587	More than one primary key row for foreign key value.
+20588	More than one row for domain value.
+20589	Size/type should be on file.
+20590	Unable to resolve safe weight.
+20591	Unable to validate $1.
+20592	Unable to verify $1.'
+20593	prechecked $1
+20594	Press [Delete Record] again to confirm cascade delete.
+20595	Required feature $1 must be entered for $2
+20596	Size is required for class of $1
+20597	Source type should be either UN or NA
+20598	The edit key is not valid in this field.
+20599	Transaction cancelled.
+20600	Hazard class does not match this entry in the IMDG/CFR Guide.
+20601	Hazard Label does not match this entry in the IMDG Guide.
+20602	Mark does not match this entry in the IMDG Guide.
+20603	Check traffic light with lane $1.
+20604	Double quotes are not allowed in Notes field.
+20605	Discharge port must be the same as terminal''s port id $1.
+20606	Emodal ID is currently used by $1.
+20607	Expiration date must not be earlier than today.
+20608	$1 not found.
+20609	There are pending changes.  Please commit.
+20610	Package group does not match thsi entry in IMDG/CFR Guide.
+20611	Duplicate Emodal ID found. Please contact www.Emodal.com
+20612	$1 $2 is currently locked by user $3. Please try again later.
+20613	Cannot delete this VEPO while equipment exists against it.
+20614	At least 1 Size/Type should exist for a VEPO.
+20615	Reserved equipment exists for this VEPO.  Do you want to continue?
+20616	Block and Rows cannot be blank if Stacks are entered.
+20617	Block cannot be blank if Rows and Stacks are entered.
+20618	Block cannot be blank when Rows exist.
+20619	End date cannot be greater than today.
+20620	End date cannot be less than run date.
+20621	Run date cannot be greater than today.
+20622	Unable to create $1.
+20623	Re-query to make additional changes.
+20624	No reference data found for this UN and page number.
+20625	No reference data found for the shipping name.
+20626	Must be between $1 and $2 $3.
+20627	Change sort number to desired value.
+20628	You must first specify genset or cooling unit required before indicating a size/type.
+20629	$1 function failed.
+20630	Cannot Insert into $1 Table.
+20631	$1 does not have a Service Order for this Vessel/Visit: $2
+20632	Genset Required or Cooling Unit Required must be specified.
+20633	MFAG does not match this entry in the IMDG guide.
+20634	Enter in the dimensions at bottom of screen.
+20635	First 3 characters of Location should be an odd number.
+20636	$1 is required if $2.
+20637	$1 must be blank if $2 is blank.
+20638	$1 is not unique.
+20639	$1 is not spawnable.
+20640	Roll Warning: Count for sz/tp $1 exceeds quantity for Current Booking/VEPO.
+20641	$1 must be the same as $2.
+20642	$1 must be of $2.
+20643	Roll Error: Size/type not valid for booking/VEPO $1.
+20644	Split Error: Size/type not valid for booking/VEPO $1.
+20645	Bay, Tier and Position is full.
+20646	Transaction Complete. $1 record(s) rolled, $2 record(s) split.
+20647	$1 - Using Line does not match $2 Booking/VEPO Line.
+20648	$1 - Equipment must be in yard or on vessel.
+20649	Sz/Tp $1 does not match Sz/Tp of New Booking.
+20650	Size/type not valid for booking/VEPO $1.
+20651	$1 not allowed in this context.
+20652	$1 Cancelled.
+20653	Wrong argument passed into "$1".
+20654	No current $1 specified.
+20655	No equipment in yard for current booking/VEPO.
+20656	No equipment uses found for this booking/VEPO.
+20657	List of Values not available for this field.
+20658	You must specify R for Roll or S for Split.
+20659	Current Booking/VEPO and New Booking/VEPO records are identical.
+20660	Query returned no records.
+20661	No Data Found.
+20662	Invalid format for $1 Date. Must be MM/DD/YY HH24:MI
+20663	Discharge date cannot be back dated more than 7 days.
+20664	Discharge date cannot be set into the future.
+20665	Could not update current $1.
+20666	Update of more than 1 current $1.
+20667	Requires Investigation.
+20668	No containers/chassis discharged - rollback complete.
+20669	Please requery data for specified $1.
+20670	$1 Date cannot be set into the future.
+20671	$1 is in yard.
+20672	$1 is on the vessel. Split of Export Booking items not allowed on the vessel.
+20673	$1 is in use.
+20674	Weight in Tons(Metric).
+20675	Weight in Pounds.
+20676	Inserting into ext gate notification q.
+20677	Cannot delete IMDG_ENTRIES while Hazards exist.
+20678	Query cancelled.
+20679	Must enter query mode first.
+20680	Wildcards not allowed. Please enter the entire $1.
+20681	You are not authorized to add, change or delete this $1 constraint.
+20682	You may not change an existing constraint. You may only delete or add.
+20683	Invalid constraint type. Re-enter.
+20684	$1 not defined.
+20685	$1 not found with this $2.
+20686	$1 already exists for $2.
+20687	$1 already exists with $2.
+20688	Cannot delete $1 while $2 exists.
+20689	Equipment $1 is no longer on file. Merge not allowed.
+20690	Merge has been processed successfully.
+20691	Merging Cancelled.
+20692	Row exists already with same $1.
+20693	$1 is already on file.
+20694	$1 is already on file for this $2.
+20695	$1 not on file. Merge not allowed.
+20696	Cannot merge $1 into itself.
+20697	$1 is not a valid value.
+20698	Invalid $1. - List of Values available.
+20699	$1 required for $2.
+20700	Invalid combination of $1 and $2.
+20701	$1 not allowed for class of $2.
+20702	$1 must be a $2 digit number.
+20703	No match found in $1 for $2.
+20704	Must enter a $1 to execute a query.
+20705	Unable to call $1.
+20706	Can only query on $1.
+20707	$1 cannot be greater than $2.
+20708	$1 cannot be less than $2.
+20709	Must input a new number to change to.
+20710	Error occurred while testing $1.
+20711	$1 must be selected first.
+20712	$1 needs to be added first.
+20713	The Report Type associated to the Report ID is $1.
+20714	$1 same as $2.
+20715	You must have at least one $1 record.
+20716	Error in batch report submission.
+20717	Batch report submitted.
+20718	No service order exists with this number.
+20719	Please add report type(s) $1.
+20720	Wildcards not allowed.
+20721	$1 not specified.
+20722	$1 must be specified.
+20723	Summary data does not match equipment data on restricted queries.
+20724	$1 and $2 are identical.
+20725	No $1 data in this block.
+20726	You have chosen NOT to override existing $1.
+20727	Resequence of records complete.
+20728	Auto-requery failure.  Please requery records.
+20729	Problem with $1. Contact System Administrator.
+20730	Re-query to change/update this record.
+20731	A Value must be entered.
+20732	Invalid Query in $1. Correct format is $2.
+20733	$1 not allowed. Press $2 to Query.
+20734	$1 not allowed. Query to view data.
+20735	Entry of $1 not allowed if $2 has already been entered.
+20736	$1 not allowed. No data.
+20737	$1 must be blank if $2 is $3.
+20738	$1 must be $2 for $3.
+20739	No EIR transaction for container found for today.
+20740	No EIR document found for today for this truck plate.
+20741	No EIR document for chassis found for today.
+20742	No EIR transaction for chassis found for today.
+20743	No EIR document for container found for today.
+20744	Transaction is still in process. Reprint/Redisplay not available.
+20745	No equipment uses found for this current vessel/voyage/line.
+20746	Enter $1 or exit.
+20747	No Records to Print.
+20748	Unable to refresh screen when querying on yarddate. Please requery to continue.
+20749	Multiple entries for this user ID.
+20750	$1 cannot be the same as $2.
+20751	$1 does not have any constraint.
+20752	Must have valid query data to continue.
+20753	Unable to call needed Form.
+20754	Failure in copying constraints from $1.
+20755	Constraints copied to $1.
+20756	Constraints copied.
+20757	Null block name.
+20758	No data in $1 block. Navigation not permitted.
+20759	This key is only valid from $1.
+20760	$1 not available.
+20761	The correct entry format is "$1".
+20762	$1 is less than $2.
+20763	$1 must be less than $2.
+20764	Call number is required for ports used more than once in a rotation.
+20765	$1 must be greater than $2.
+20766	Qty entered is less than equipment against this order.
+20767	Invalid value. Enter $1.
+20768	$1 already exists for this $2.
+20769	More than one $1 record found for this ID.
+20770	Batch file queueing failed.
+20771	Full or partial $1 required for query
+20772	Container is not an import full.
+20773	This option is invalid if using $1.
+20774	$1 is not applicable for $2.
+20775	Check Digit not needed
+20776	Update of $1 is not allowed.
+20777	Invalid Value.
+20778	Cannot delete $1.
+20779	No data for $1 form to process.
+20780	$1 must be specified if $2 is specified.
+20781	$1 cannot be limited by $2.
+20782	Either $1 or $2 must be selected.
+20783	$1 cannot be selected when $2 is selected.
+20784	$1 already exists.  Please enter a different $2.
+20785	Since $1 IS NULL, $2 must also be NULL.
+20786	Since $1 has been entered, $2 must also be entered.
+20787	Option to exclude vacant rows is valid when no other parameter specified.
+20788	$1 must be smaller or equal to $2.
+20789	Both $1 and $2 must be Entered or NULL.
+20790	User Id exists in the Report Schedule. Cannot be Inactive.
+20791	Could not find the transaction.
+20792	Batch transactions do not have documents to reprint.
+20793	No document exists to reprint for this transaction.
+20794	Line users not authorized to Reprint Last Document.
+20795	Transaction type does not allow reprint of document.
+20796	Access to this constraint already exists for user.
+20797	Roles cannot be assigned because this user doesn''t have a valid database account.
+20798	Press $1 to continue.
+20799	Date range not in calendar. Add dates and try again.
+20800	$1 must be either $2 or $3 on screen.
+20801	The correct entry format for $1 is "$2".
+20802	This required form does not exist.
+20803	A valid $1 is required for $2.
+20804	Block cannot be blank if Row is entered.
+20805	Block cannot be blank if Stack is entered.
+20806	Row cannot be blank if Stack is entered.
+20807	No containers/chassis loaded - rollback complete.
+20808	No equipment needs to be loaded from this Vessel/Voyage.
+20809	$1 date cannot be back dated more than 7 days.
+20810	$1 not found for $2.
+20811	Owner type is POOL. Cannot use Line''s Code.
+20812	Please enter Train and Destination.
+20813	This Printer Form is already listed for this Printer.
+20814	Invalid Value. Must be $1.
+20815	$1 not allowed in this block.
+20816	$1 successfully created or updated.
+20817	$1 successfully deleted.
+20818	Please enter Valid Values.
+20819	Rows cannot be blank if Stacks are entered.
+20820	Cannot delete yard position $1 while equipment is located in that spot.
+20821	$1 not allowed in this Form.
+20822	$1 not allowed in this Field.
+20823	$1 record not found
+20824	The entire $1 is required for query.
+20825	$1 could not be found.
+20826	Please Enter Both Starting And Ending $1 Values.
+20827	$1 must be greater than or equal to $2.
+20828	Please enter all Numeric data for rows.
+20829	Please enter either All Numeric or All Non-Numeric stack values.
+20830	Please ensure $1 entries are the same length (use leading zeros if necessary).
+20831	Please ensure non-numeric stack values are a single letter.
+20832	While Gate is X then Report will generate for all Gate Task Id..No task id is allowed!
+20833	Without Position id, step is wired!
+20834	Divorcing container from chassis.
+20835	Split Row must be within the range of Start Row and End Row.
+20836	Specified records do not exist. Unable to delete.
+20837	Sort Order for report is missing.
+20838	Owner must be $1.
+20839	Shipping line''s user not allowed to change OWNER.
+20840	Report sent to Printer $1.
+20841	$1 is non-update field.
+20842	Quantity is not allowed when UOM is not specified.
+20843	The existing use will be deleted and the equipment use in focus will become the current use. Do you want to continue?
+20844	No row in table SYS.DUAL
+20845	More than one row in table SYS.DUAL
+20846	Not Authorized for this Line.
+20847	Not Authorized for All Lines.
+20848	Must have a valid date and time.
+20849	This report is extremely resource intensive
+20850	on the computer and should be avoided during
+20851	regular working hours (8-12 AM or 1-5 PM).
+20852	Do you really want to run the report now?
+20853	IMDG label description already exists.
+20854	Cannot delete IMDG Labels while Hazard Labels exists.
+20855	Internal error.
+20856	Cannot delete Hazard Classes while IMDG Hazard exists.
+20857	This IMDG CLASS is already on file.
+20858	Cannot delete Hazard Marks while Hazard Marks exists.
+20859	IMDG mark description already exists.
+20860	Invalid value for Preview on screen.
+20861	Invalid value for Printer on screen.
+20862	Delete Record not allowed in this context.
+20863	Language must coincide with language set for database.
+20865	Start date must be less than system date.
+20866	End Date cannot be less than start date.
+20867	End Date cannot be identical to start date.
+20868	Source must be either IMDG or CFR
+20869	$1 must be between $2 and $3 $4
+20870	Please select an IMDG Class.
+20871	Please select records with similar Data Types and Data Values
+20872	Proper shipping name must be specified.
+20873	Cubic dimensions of cargo in $1
+20874	$1 does not match this entry in the IMDG or CFR Guide
+20875	No reference data found for this Hazard number.
+20876	$1 should be a number.
+20877	Please check if the Labels and Marks match this entry in the IMDG Guide.
+20878	Query Records prior to update.
+20879	$1 Rows selected. Please mark spots as available / not available .
+20880	Call RF to release
+20881	Unable to decode message $1 version $2.
+20882	Unknown EDIFACT format
+20883	Location is not allowed if dray status = I.
+20884	Category must be an 'I' if dray = 'I'.
+20885	Invalid Terminal id.
+20886	Damage Locations cannot be left blank
+20887	Damage Type invalid
+20888	Damage Loc invalid
+20889	Incomplete Typ/Loc
+20890	Call BCT to release
+20891	Spinnaker fails to pick.  Please contact system admin.
+20892	Too many records selected.  Max allowed is $1.
+20893	Container restricted from update - planned or loaded.
+20894	Batch $1 has invalid format
+20895	All three temperature fields are required if any one temperature is entered.
+20896	Set temp must be greater or equal to minimum temp, and less than or equal to maximum temp.
+20897	$1 is in the yard , Split of BOL items not allowed in the Yard or Offdock.
+20898	$1 is Offdock. Split of BOL items not allowed Offdock.
+20899	No special characters allowed for $1. Enter alphanumeric characters only.
+20900	Invalid format for Time; must be 'hh:mi'.
+20901	Hour must be between 0 and 23.
+20902	Minutes must be between 0 and 59.
+20903	Invalid Position
+20904	$1 date cannot be back dated more than $2 days.
+20905	Cannot delete $1.  It is being used in the system.
+20909	You cannot set the Timestamp to a future date/time
+20910	Already loaded
+20911	Unable to load selected record
+21000	This is a computer generated notification from $1.
+21001	If you have questions or feel you have received this notice in error, please contact the terminal.
+21002	Do not reply to this email as it was sent from an unmonitored email account.
+21003	Equipment number $1 , transaction number $2, for $3 $4, is held at the gate for the following reason(s):
+21004	To resolve the problem, please contact the terminal.
+21005	All of the containers for booking number $1 for $2 have entered the terminal. The booking is full.
+21006	Booking number $1 for $2 has been entered into our computer system on $3.
+21007	EDO number $1 for $2 has been entered into our computer system on $3.
+21008	All of the containers for EDO number $1 for $2 have been picked up from the terminal.
+21009	$1 number $2 for $3 is now available.
+21010	$1 Number $2 for $3 is now in demurrage.
+21011	Today is the last free day for $1 number $2 for $3.
+21012	Demurrage charges will start accruing if the $1 is not picked up today.
+21013	Your interchange agreement with $1 line will expire on $2.
+21014	Please contact the steamship line if you have any questions, do not call the terminal with questions about your interchange agreements.
+21015	$1 number $2 for $3 was gated out of the terminal on $4.
+21016	$1 number $2 for $3 was gated into the terminal on $4.
+21017	Booking Notification
+21018	Empty Delivery Order Notification
+21019	Import Notification
+21020	Interchange Agreement Notification
+21021	Equipment Notification
+21022	$1 number $2 for $3 received steamship line release on $4.
+21023	Equipment Availability Notification for $1
+21024	Demurrage Paid.
+21025	Demurrage Paid for $1.
+21026	$1 Number $2 for $3 received customs clearance on $4.
+21027	The holds in container number $1 for $2 were removed on $3.
+21028	$1 number $2 for $3 was unloaded from the vessel $4 on $5.
+21029	Delivery Order Exists for $1.
+21030	$1 number $2 has been gated in against booking $3 for $4.
+21031	Gate Trouble
+21032	$1 owned by $2 is available for pick-up as of $3.
+21033	An email has been sent to $1.
+21034	This is to notify you that your $1 is available for pick-up as of $2.
+21035	Charges Due. To resolve the problem, please contact 1-877-221-8873.
+21036	$1 number $2 for $3 was devanned on $4.
+21037	Search criterion must be entered to be saved.
+21038	$1 number $2 for $3 was loaded to the vessel $4 on $5.
+21039	$1 number $2 for $3 is now available for a Customs Exam.
+21050	Equipment No. must be entered.
+21055	Error while inserting record in Nc_Cargo table.
+21060	Error : Booking/BOL must be the same.
+21065	Error : Cargo code must be the same.
+21066	Constraints are not valid for Cargo Bookings.
+21070	Equipment Booking and Cargo Booking are different for Vin/Serial/ID : $1 and Eq no.: $2.
+21075	Import transship Equipment does not have a booking for Equipment No.:$1
+21080	Cargo is already attached to equipment for  Vin/Serial/ID :$1.
+21085	Attachment Complete. $1 Cargo's Vanned into Equipment Successfully.
+21090	Vin/Serial/ID is Mandatory.
+21095	Stripping Complete for ID's : $1. Cargo de-vanned from Equipment (Success).
+21100	Now attaching Cargo to Equipment...
+21105	This Booking/BOL does not exist. Enter again.
+21110	Booking/BOL must be entered.
+21114	Unable to Generate NC_CARGO_GKEY.
+21115	Vin/Serial/Id is mandatory.
+21120	Cargo type must be entered.
+21130	This Vin/Serial/Id already exists for this Booking, please change to a unique no.
+21135	Error while selecting from Service_order table.
+21140	Error while selecting seq no from Service_order_nc_items table for BOl/Booking entered.
+21145	Error while selecting from so_gkey sequence.
+21150	Please save or discard changes first.
+21151	Please enter Vessel/Voyage and Line.
+21152	System user will not be created until you set the password
+21153	Invalid combination of Service Order Types.
+21154	Booking-to-VEPO adjustments may be between empty Service Orders only.
+21155	Booking-to-VEPO adjustments may be Splits only.
+21156	Full containers may not be used for Booking-to-VEPO splits.
+21157	Maximum amount of $1 records fetched.  Results have been limited to $2.  Specify a date range to view earlier records.
+21158	Delivery Surcharge Fee has not been paid.
+21159	DVIR Information not received for $1.
+21160	Damage details must be in the context of equipment or cargo.
+21162	Invalid IMDG UN Nbr.
+21163	Category must be an 'E' if dray =  'F','R' or 'T'
+21164	Total of $1 records fetched. Results have been limited to $2. Refine your criteria to reduce amount of records returned.
+21165	$1 Not Available for Reservation
+21166	REquested amount exceeds Available.
+21167	$1 Not Available for Discharge
+21168	$1 is Assigned and is not available for reservation
+21169	Quantity requested is less than quantity currently Assigned
+21200	Booking number $1 for $2 was updated on $3.  The following changes have occurred
+21201	Booking number $1 for $2 has been removed from the system on $3
+21202	Number was updated from $1 to $2
+21203	Vessel was updated from $1 to $2
+21204	Voyage was updated from $1 to $2
+21205	Discharge Port was updated from $1 to $2
+21206	Destination was updated from $1 to $2
+21207	Quantity for $3 was updated from $1 to $2
+21208	Item $1 was added
+21209	Item $1 was removed
+21210	Temperature was updated from $1 to $2
+21211	Temperature 2 was updated from $1 to $2
+21212	Temperature 3 was updated from $1 to $2
+21213	Vent settings was updated from $1 to $2
+21214	Vent settings 2 was updated from $1 to $2
+21215	Vent settings 3 was updated from $1 to $2
+21216	Vent unit was updated from $1 to $2
+21217	Vent unit 2 was updated from $1 to $2
+21218	Vent unit 3 was updated from $1 to $2
+21219	$1 number $2 has been gated out against $5 $3 for $4.
+21220	Port $1 is not valid for Vessel $2 Voyage $3
+21221	Cargo Notifications
+21222	$1 has Gated $2 the terminal on $3
+21223	$1 has been loaded to Vessel $2 on $3
+21224	$1 has been unloaded from Vessel $2 on $3
+21225	$1 for $2 is now available.
+21226	Please use your email address to log in.
+21227	Appointment Notification
+21228	We regret to inform you that your appointment for $1 transaction on $2 at $3 has been canceled.
+21229	Please visit the Forecast site at  $1 to reschedule.
+21230	We are sorry for any inconvenience this may have caused.
+21231	Your appointment for container $1 has been confirmed.  You may proceed to the Pre-Gate at the time of your appointment. Remember to bring all the documents processed.
+21232	If you would like to delete this appointment, log into Forecast by Tideworks.  Deleting this appointment will not refund any fees paid against the container.
+21233	Appointment ID: $1
+21234	$1 Appointment Date
+21235	Line: $1
+21236	Task: $1
+21237	Trucker Company: $1
+21238	Truck License: $1
+21239	Service Order: $1
+21240	Notes: $1
+21241	Destination Gate: $1
+21242	Any fees added after this email will not invalidate your appointment but will still prevent container pickup at the gate until all fees are paid.
+21500	DB Exception
+21501	General Error
+21502	Invalid API call
+21503	Incomplete API call
+21504	Unknown Error
+21505	Invalid E-Mail ID
+21506	Invalid Company E-Mail ID
+21507	Invalid Password
+21508	Invalid Trucker ID
+21509	Invalid Company/Business Type
+21510	Invalid User Type
+21511	A User with the E-Mail ID currently exists
+21512	E-Mail ID was not found
+21513	User does not exist
+21514	Invalid User ID
+21515	Mainsail User ID required
+21516	Password is required
+21517	An Admin user exists for the company
+21518	A pending registration request exists for the company
+21519	Invalid registration request ID.
+21520	Last Remaining Admin User for the Company.
+21521	Invalid Company ID
+21522	Update failed
+21523	Invalid Forecast Transaction Type
+21524	Invalid Forecast Transaction
+21525	Not a Line Agency
+21526	Invalid Forecast transaction status
+21527	Equipment cannot be guaranteed
+21528	Equipment cannot be paid for
+21529	Invalid Language
+21530	Account Disabled
+21531	Vin not found
+21532	Vin already in yard
+21533	Invalid booking number
+21534	Booking is full
+21535	Booked vessel/voyage has sailed
+21536	Vin found with different booking
+21537	Vin has STOP constraint
+21538	Invalid vessel/voyage
+21539	Vin ties to invalid booking number
+21540	Wrong vessel/voyage
+21541	Wrong category
+21542	Vin is on vessel
+21543	Wrong port of discharge
+21544	Vin not in yard
+21545	Vin has no line release
+21546	Vin has no customs release
+21547	Vin has not been set for dray
+21548	Invalid yard position
+21549	Invalid BOL number
+21550	Bill of Lading information is not complete, update failed.
+21551	The record for this Bill Of Lading is currently locked by another user. Please try again later.
+21552	Vessel/voyage cannot be assigned to an empty storage container.
+21553	You cannot update this BOL; Service-specific history exists for one or more items.
+21554	Commodity is required.
+21555	Package Type is required.
+21556	Declared Quantity is required.
+21557	Declared Weight is required.
+21558	No predefined stowage requirement was found for this UN Nbr/UN Page in the IMDG Guide.
+21559	There is a pending registration for this email address. Please use a different email address.
+21560	This user has already been converted.
+21561	Service Order required to create cargo
+21562	Cargo Code is not valid
+21563	Current cargo positions cannot be updated
+21599	Cannot load more than the current inventory
+21600	Please select either Consignee Label or Consignee Receipt.
+21601	Invalid value for printer on screen.
+21602	Invalid number entered. Enter again.
+21603	Cargo has attached cargo and/or equipment.
+21604	Cargo location may not be changed.
+21605	You must select all of these - VIN/Serial/Id and Make and New/Used $1
+21606	Cargo Locked. Gate Moves are not allowed
+21607	Cargo Locked. Vessel Moves are not allowed
+21608	Split must be performed on the container or the cargo must be devanned first.
+21609	Cargo Locked. No updates are allowed from Vanguard
+21610	Associated equipment not Offdock. Needs to be devanned before delivery.
+21611	Cannot attach export cargo to import cargo
+21612	Cargo to be attached doesn't exist.
+21613	Both cargo items should be on an inbound vessel or in the yard for an import Cargo
+21614	Cargo already assigned to this location
+21615	Both cargo items should be in the yard for Export Cargo
+21617	Error: Cargo is in a Container. Updates to Line, Vessel, Voyage or Discharge Port should be made to the container.
+21619	Cargo category is invalid.  Must be Export or Rehandle.
+21620	Booking details of Cargo $2 and attached Equipment $3 do not match, cannot proceed with $1
+21621	Cargo $1 already  assigned to position $2
+21622	Reservation level has been changed by another user.
+21623	Serial number records need to be selected for this operation
+21624	Cannot load more than it was reserved.
+21625	Booking details of New Booking selected and Equipment Cargo is attached to do not match, cannot proceed with Split.
+21630	Unable to update SICREFIS tables.
+21635	Unable to update Service_Request_Items tables.
+21640	Container not confirmed by yard equipment, cannot complete transaction.
+21645	Select atleast one detail line prior to pressing $1 button.
+21650	Please search records first and select atleast one.
+21655	Atleast one query criterion must be entered.
+21660	Container assigned to a Train cannot proceed.
+21665	Cannot continue with operation as current equipment use has unbilled services.
+21670	Either Ingate From/To Date or Last X Days must be entered.
+21675	Current booking does not exist.
+21676	New booking does not exist. Please create it first if necessary.
+21677	The two bookings are the same. They need to be different.
+21678	New booking does not have any item against it.
+21679	New booking is full.
+21680	Current booking does not have any containers to split.
+21685	This combination of Shared Trucker Id and Trucker Id already exists. Enter again.
+21690	$1 does not exist in Truckers table. Enter again.
+21695	Shared Trucker Id and Trucker Id cannot be the same.
+21696	$1 is already associated. Enter again.
+21697	ITN Hold
+21698	Temperature and Temp unit are required
+21700	Cargo category is invalid. Must be Import or Rehandle.
+21701	Cargo is not on vessel.
+21702	This item cannot be selected. Cargo has not been released by line.
+21703	Category $1 can not be rehandled. Must be Export, Rehandle or Stay on board.
+21704	Gate Out date is before discharge from vessel event's timestamp.
+21705	The Container and RO/RO Cargo cannot be associated to different bookings
+21706	Stuffing cargo before the In Yard Date is not allowed.
+21707	Container Service order wrong sub type.
+21710	Equipment has wrong Yard Position
+21711	Special Stow code $1 is not defined.
+22000	Unable to process ORDR with VSIN type because a discharge move is already active.
+22001	Unable to process ORDR with VSOUT type because a load move is already active.
+22002	Unable to process ORDR with RLIN type because a rail discharge move is already active.
+22003	Unable to process ORDR with RLOUT type because a rail load move is already active.
+22004	Unable to process ORDR with TRIN type because a gate in move is already active.
+22005	Unable to process ORDR with TROUT type because a gate out move is already active.
+22006	Unable to process ORDR with FCFS type because a yard move is already active from CFS block.
+22007	Unable to process ORDR with TCFS type because a yard move is already active to CFS block.
+22008	Unable to process ORDR with RSCC type because a cell to cell move is already active.
+22009	Unable to process ORDR with RSDC type because a discharge move is already active.
+22010	Unable to process ORDR with RSDC type because a load move is already active.
+22012	A record exists with that ID. Please enter a new ID.
+22013	Container must be a Dray Off.
+22014	Container size too long for chassis size.
+22015	The Dray In container has exceeded the return time limit.
+22016	Booking is locked from updates.
+22020	Action not availble for $1.
+30001	Vietnam reefer
+70048	BREAK BULK INSPECTION
+70049	SNAILS INSPECTION
+70050	SEAL CHECK INSPECTION
+70051	SEEDS INSPECTION
+70052	TEMPERATURE CHECK
+99999	Stop Operation....
+155570	Line: $1 Vessel/Voyage: $2/$3 not found
+155571	WARNING: $1 truncated after 30 characters
+155572	Unable to process segment: $1
+155576	Cargo exists that needs to be deleted before the booking can be deleted
+155577	Cannot  update $1 while $1 in use.
+200000	Initializing...
+200001	Initialization completed for Transaction
+200002	Validation has completed successfully
+200003	Validation has failed
+200004	Saving Transaction
+200005	Transaction processing has failed
+200006	Transaction has been saved
+200007	Transaction has been set to Error status
+200008	Requesting additional information for Transaction
+200009	The operation has timed out
+200010	Getting Yard Information from Planning$1
+200011	Getting Pick Information from Planning$1
+200012	Processing transaction.  Please wait.
+200013	All Transactions have successfully completed.  Please drive ahead.
+200014	All Transactions have not completed.  Please press the button to call a clerk.
+200037	Tier From and Teri To not allowed for Rate Type Single-Tiered
+200038	Cannot delete Vessels while  Line Vessels exists.
+200039	This criteria set/rule is in use by an invoice item.
+200040	Cannot change Equipment Class while equipment of another class is in pool
+200041	Pool used as a default with conflicting type for a LINE OPERATOR
+200042	Cannot delete access while Pool used as default for this LINE OPERATOR
+200043	Cannot delete Equipment Pool Access while Line Trucker Pool Access exists.
+200044	Cannot delete Equipment Pool while $1 exist.
+200045	Line Trucker Pool Access: LINE $1, TRUCKER $2, UPOOL $3 - already exists.
+200046	Cannot delete Hazard Classes while IMDG Hazard Entries exists
+200047	Cannot delete CFR_ENTRIES while HAZARDS exists
+200048	Cannot delete DOT Labels while Hazard Labels exists
+200049	Cannot delete CFR Marks while CFR Entries exists.
+200050	Cannot delete IMDG Class while $1 exists.
+200051	Cannot delete IMDG Mark while $1 exists.
+200052	Cannot delete IMDG Entry while still associated with hazards.
+200053	Equipment Owner could not be determined.
+200054	This equipment range overlaps existing range $1 
+200055	Beginning Number and Ending Number must be the same length
+200056	Ending Number must be greater than Beginning Number
+200057	The maximum limit for Door Height is 1402 centimeters.
+200058	Door Height must be greater than or equal to zero.
+200059	Door Width must be greater than or equal to zero
+200060	The maximum limit for Door Width is 1402 centimeters
+200061	"Inside Height must be greater than or equal to zero."
+200062	The maximum limit for Inside Height is 1402 centimeters
+200063	Inside width must be greater than or equal to zero.
+200064	The maximum limit for Inside Width is 1402 centimeters.
+200065	Inside Length must be greater than or equal to zero.
+200066	The maximum limit for Inside Length is 1402 centimeters.
+200067	Inside Volume must be greater than or equal to zero.
+200068	The maximum limit for Inside Volume is 3047 cubic meters
+200069	Accessory Owner could not be determined.
+200070	Chassis Owner could not be determined.
+200075	Cannot delete CFR Classes while Hazard Entries exists.
+200076	Cannot delete CFR Labels while Line Assignments exists.
+200077	Cannot delete IMDG Labels while Line Assignments exists.
+200078	Cannot delete IMDG Marks while Line Assignments exists.
+200079	Cannot delete CFR Marks while Line Assignments exists.
+200080	Lower Limit Should be Less than Upper Limit
+200081	To date should be greater than From date.
+200082	This operation will exceed the booking quantity.
+200083	 Equipment $1 has associated billing transactions 
+200085	Operating Ports Changed - Containers: $1 Bookings: $2.
+200090	User $1 does not have access to equipment $2.
+200091	My Searches
+200092	Public Searches
+200093	$1 Container
+200094	Position
+200095	$1 Yard Spot
+200096	this size/type
+200097	updated successfully.
+200098	of
+200099	Unknown Error, Record can not be updated
+200100	This record has a constraint. Check box and click submit to continue.
+200101	This equipment has damage details.  Select Override to remove damage details.
+200102	This record has a constraint.
+200103	Pool Assignment was not found for deletion.
+200104	Unable to add Train Assignment record.
+200105	Vessel Lloyds Id / Line Voyage not updated.
+200106	No Containers updated for Vessel Lloyds Id / Line Voyage.
+200121	Invalid Requirement for ServiceOrder.
+200122	From number and To number Prefixes must be the same
+200123	"Container numbers of this range overlaps other range Requirement."
+200125	Cargo Associated with this booking. It cannot be deleted.
+200126	The Billing Mode for that Terminal Service already exists.
+200127	Liner or Non-Liner must be specified
+200128	Container has not been reserved for an EDO 
+200129	Only one time schedule at a time may be used on a vessel invoice
+200130	Cannot delete Time Schedule while associated Terminal Service exists
+200131	Category must be export when dray status is R.
+500100	There was an error while Onhiring the given piece of Equipment
+500101	The data supplied to Onhire Equipment is invalid
+500110	The Check Digit for the Equipment Number is invalid
+500114	Unsupported UOM for temperature $1 to $2.
+500115	The Container must be in the yard.
+500116	This equipment doesn't have a use, and cannot be updated.
+500117	Can not change owner to NONE, if not Offdock.
+500118	Safe Weight must be between 0 and 999.99.
+500119	Temperature and vent settings must be removed for Size Type.
+500120	Equipment is reserved for another booking. Do you want to continue?
+500121	Equipment is reserved for another EDO/Booking.
+500122	Equipment is assigned to VEPO
+500123	Equipment is assigned to an Empty Booking
+500124	Equipment and Cargo must have the same Category.
+500125	Cargo's current location is $1 and cannot be deleted.
+500126	Cargo has already been removed from Service Order. Service Request status is $1.
+500130	Container
+500131	Vessel
+500132	Yard
+500133	Cancelled
+500143	This prefix does not exist.
+500145	$1 is not authorized to use this prefix.
+500148	The Release Type cannot be deleted while associated documents exist.
+500149	No Cargo found.
+500150	Could not Generate Report.
+500151	This Transaction has already been printed. Please reprint.
+500152	Transaction Gkey or Form Type is empty. Could not print.
+500153	Could not reprint attached report.
+500154	No Invoice Found to print.
+500155	This Transaction has been canceled and cannot be printed.
+500156	This Transaction is not finalized and cannot be printed.
+500157	Cannot delete Train while container association exists.
+500160	From Date is required.
+500161	To Date is required.
+500162	Please enter From Date and To Date or Number of Days.
+500163	Cannot delete cargo while still associated with active Service Request Items.
+500164	No Valid Contract Available
