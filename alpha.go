@@ -20,7 +20,7 @@ func main() {
 	http.ListenAndServe(":8080", nil)
 }
 
-func readLines(path string) ([]string, error) {
+func readLines(path string) ([]string, error) {  //function multiple returns
 	file, err := os.Open(path)
 	if err != nil {
 		return nil, err
