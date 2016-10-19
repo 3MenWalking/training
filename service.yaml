@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: "training"
+spec:
+  selector:
+    app: "training"
+  ports:
+    - protocol: "TCP"
+      port: 8099
+      targetPort: 8099
+      nodePort: 31000
+  type: NodePort
